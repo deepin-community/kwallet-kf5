@@ -1,0 +1,892 @@
+kwallet-kf5 (5.90.0-1) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 24 Apr 2022 17:14:58 +0800
+
+kwallet-kf5 (5.90.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.89.0).
+
+  [ Aurélien COUDERC ]
+  * New upstream release (5.90.0).
+  * Added myself to the uploaders.
+  * Update list of installed files.
+  * Add lintian override for libkf5wallet5 recommending libkf5wallet-bin.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 11 Feb 2022 23:46:44 +0100
+
+kwallet-kf5 (5.88.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.87.0).
+  * New upstream release (5.88.0).
+  * Force-bump frameworks internal b-d to 5.88.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Nov 2021 06:07:42 +0900
+
+kwallet-kf5 (5.86.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.86.0).
+  * Bump Standards-Version to 4.6.0, no change required.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 13 Sep 2021 11:01:30 +0900
+
+kwallet-kf5 (5.85.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 28 Aug 2021 23:42:49 +0900
+
+kwallet-kf5 (5.85.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.85.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 00:06:06 +0900
+
+kwallet-kf5 (5.83.0-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 11:53:10 +0900
+
+kwallet-kf5 (5.83.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.83.0).
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 13 Jun 2021 09:25:13 +0900
+
+kwallet-kf5 (5.82.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.82.0).
+  * Removed Maximiliano Curia from the uploaders, thanks for your work
+    on the package!
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 08 May 2021 21:20:57 +0900
+
+kwallet-kf5 (5.81.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream version (5.81.0)
+  * Bump inter-frameworks dependencies.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 12 Apr 2021 10:18:21 +0900
+
+kwallet-kf5 (5.80.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream version (5.80.0)
+  * Update patch.
+  * Bump inter-frameworks dependencies.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 15 Mar 2021 15:10:36 +0900
+
+kwallet-kf5 (5.79.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.79.0).
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 16 Feb 2021 06:45:30 +0900
+
+kwallet-kf5 (5.78.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 17 Jan 2021 12:02:25 +0900
+
+kwallet-kf5 (5.78.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.78.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 13 Jan 2021 10:32:44 +0900
+
+kwallet-kf5 (5.77.0-3) unstable; urgency=medium
+
+  [ Helmut Grohne ]
+  * Drop unused Build-Depends. (Closes: #979453)
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 07 Jan 2021 09:24:56 +0900
+
+kwallet-kf5 (5.77.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 22 Dec 2020 10:33:36 +0900
+
+kwallet-kf5 (5.77.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * Bump Standards-Version to 4.5.1 (No changes needed).
+  * New upstream release (5.77.0).
+  * Update build-deps and deps with the info from cmake.
+  * Add myself to Uploaders.
+  * Update maintainer to Debian Qt/KDE Maintainers.
+  * Remove dh_missing override, we want to fail on missing files.
+  * Update list of installed files.
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 18 Dec 2020 10:03:56 +0900
+
+kwallet-kf5 (5.74.0-2) unstable; urgency=medium
+
+  * Team upload to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 19 Oct 2020 23:17:09 +0200
+
+kwallet-kf5 (5.74.0-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (5.74.0).
+  * Update build-deps and deps with the info from cmake.
+  * Update blowfish_endianess.diff.
+  * Update Homepage link to point to new invent.kde.org
+  * Update repository related entries to metadata file.
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Add Bug-* entries to metadata file.
+  * Update symbols from build for 5.74.0.
+
+ -- Sandro Knauß <hefee@debian.org>  Sun, 27 Sep 2020 17:45:54 +0200
+
+kwallet-kf5 (5.70.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump compat level to 13.
+  * New upstream release (5.70.0).
+  * Update build-deps and deps with the info from cmake.
+  * Wrap long lines in changelog entries: 5.22.0-1.
+  * Set field Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Remove not needed Build-Depends.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 26 May 2020 23:57:38 +0200
+
+kwallet-kf5 (5.69.0-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump compat level to 12.
+  * Bump Standards-Version to 4.5.0 (No changes needed).
+  * Get rid of debug-symbol-migration package.
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (5.69.0).
+  * Update build-deps and deps with the info from cmake.
+  * Add Build-Depends-Package to symbols file.
+  * Enable hardening all.
+  * Remove not needed injection of linker flags.
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 30 Apr 2020 17:56:09 +0200
+
+kwallet-kf5 (5.62.0-1) unstable; urgency=medium
+
+  * Update reprotest args variable
+  * New upstream release (5.62.0).
+  * Update build-deps and deps with the info from cmake
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Sep 2019 10:13:13 -0700
+
+kwallet-kf5 (5.61.0-1) experimental; urgency=medium
+
+  [ Scarlett Moore ]
+  * Build-Depend on qttools5-dev to fix a cross build failure
+    (see #915122 for more info) (Closes: 929980).
+
+  [ Maximiliano Curia ]
+  * Salsa CI automatic initialization by Tuco
+  * New upstream release (5.61.0).
+  * Update build-deps and deps with the info from cmake
+  * Add missing version to maintscript
+  * Ignore reprotest build path variations
+  * Release to experimental
+
+  [ Jonathan Riddell ]
+  * moved qdebug files
+  * update .install
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Sep 2019 21:10:59 +0100
+
+kwallet-kf5 (5.54.0-1) unstable; urgency=medium
+
+  * New upstream release (5.52.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.53.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.54.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.54)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Jan 2019 19:27:24 -0300
+
+kwallet-kf5 (5.51.0-1) unstable; urgency=medium
+
+  * New upstream release (5.50.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.50)
+  * New upstream release (5.51.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.51)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 07 Nov 2018 17:17:22 +0100
+
+kwallet-kf5 (5.49.0-1) unstable; urgency=medium
+
+  * Revert "Drop without build_stamp"
+  * New upstream release (5.48.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.49.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.49)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Aug 2018 16:19:02 +0200
+
+kwallet-kf5 (5.47.0-1) unstable; urgency=medium
+
+  * New upstream release (5.47.0).
+  * Drop without build_stamp
+  * Be explicit about the installed conffiles
+  * Bump group breaks (5.47)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Jun 2018 12:10:32 +0200
+
+kwallet-kf5 (5.46.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Update symbols files from logs of buildds.
+  * Remove unused 'testsuite' autopkgtest.
+  * Remove unused debian/meta stuff.
+  * Remove the unused ${shlibs:Depends} substvar from libkf5wallet-data, and
+    libkf5wallet-doc.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 03 Jun 2018 20:12:41 +0200
+
+kwallet-kf5 (5.46.0-2) unstable; urgency=medium
+
+  * New revision
+  * Update symbols files from buildds logs (5.46.0-1).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 20 May 2018 15:08:15 +0200
+
+kwallet-kf5 (5.46.0-1) unstable; urgency=medium
+
+  * Update symbols files
+  * New upstream release (5.46.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.1.4.
+  * Use https for the debian/copyright
+  * Update symbols file
+  * Bump group breaks (5.46)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 May 2018 22:15:37 +0200
+
+kwallet-kf5 (5.45.0-1) unstable; urgency=medium
+
+  * New upstream release (5.45.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.45)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 May 2018 08:10:59 +0200
+
+kwallet-kf5 (5.44.0-1) sid; urgency=medium
+
+  * New upstream release (5.44.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.44)
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Mar 2018 14:41:20 +0100
+
+kwallet-kf5 (5.43.0-1) experimental; urgency=medium
+
+  * Use the salsa canonical urls
+  * New upstream release (5.43.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.43)
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Feb 2018 11:44:09 +0100
+
+kwallet-kf5 (5.42.0-2) sid; urgency=medium
+
+  * New revision
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 10 Feb 2018 11:29:14 +0100
+
+kwallet-kf5 (5.42.0-1) experimental; urgency=medium
+
+  * New upstream release (5.42.0).
+  * Add link options as-needed
+  * Bump debhelper build-dep and compat to 11.
+  * Build without build_stamp
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.42)
+  * Bump Standards-Version to 4.1.3.
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 02 Feb 2018 12:05:57 +0100
+
+kwallet-kf5 (5.41.0-1) experimental; urgency=medium
+
+  * New upstream release (5.41.0).
+  * Bump Standards-Version to 4.1.2.
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+  * Bump group breaks (5.41)
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:43:10 -0300
+
+kwallet-kf5 (5.41.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 08 Dec 2017 14:48:42 +0000
+
+kwallet-kf5 (5.40.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 10 Nov 2017 13:00:25 +0000
+
+kwallet-kf5 (5.39.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 15 Oct 2017 11:47:30 +0000
+
+kwallet-kf5 (5.38.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Sep 2017 13:31:49 +0000
+
+kwallet-kf5 (5.37.0-2) sid; urgency=medium
+
+  * New revision
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 09:58:55 +0200
+
+kwallet-kf5 (5.37.0-1) experimental; urgency=medium
+
+  * New upstream release (5.37.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.37)
+  * Update symbols file
+  * Bump Standards-Version to 4.0.1.
+  * wrap-and-sort
+  * Set section for the doc package
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Aug 2017 10:43:22 +0200
+
+kwallet-kf5 (5.37.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 11 Aug 2017 15:16:34 +0000
+
+kwallet-kf5 (5.36.0-2) experimental; urgency=medium
+
+  * New revision
+  * Update symbols files from the buildds logs
+  * Build the qch files
+  * Add libkf5wallet-doc package for the qch files
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Aug 2017 19:59:10 +0200
+
+kwallet-kf5 (5.36.0-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.35.0).
+  * Bump Standards-Version to 4.0.0.
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.35)
+  * Update symbols files.
+  * Use only the pp version
+  * watch: Use https uris
+  * New upstream release (5.36.0).
+  * Bump group breaks (5.36)
+  * Update build-deps and deps with the info from cmake
+
+  [ Helmut Grohne ]
+  * Mark libkf5wallet-dev Multi-Arch: same (Closes: 864674)
+
+  [ Harald Sitter ]
+  * acc c++11. now used more liberally
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:42:15 +0200
+
+kwallet-kf5 (5.36.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 10 Jul 2017 17:14:04 +0000
+
+kwallet-kf5 (5.35.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 11 Jun 2017 20:37:48 +0000
+
+kwallet-kf5 (5.34.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 14 May 2017 17:38:45 +0000
+
+kwallet-kf5 (5.33.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 07 Apr 2017 16:24:55 +0000
+
+kwallet-kf5 (5.32.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 12 Mar 2017 13:23:39 +0000
+
+kwallet-kf5 (5.31.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 13 Feb 2017 14:39:54 +0000
+
+kwallet-kf5 (5.30.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 16 Jan 2017 13:43:01 +0000
+
+kwallet-kf5 (5.29.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:09:12 +0000
+
+kwallet-kf5 (5.28.0-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Use unversioned libboost-dev build-dep.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 28 Dec 2016 18:52:52 +0100
+
+kwallet-kf5 (5.28.0-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Add signature verification for uscan.
+  * Build against gpgme>=1.8.0, to get rid of gpgmepp.
+    - Update Build-Deps (libboost1.61-dev, libgpgme-dev, libgpgmepp-dev).
+    - Update symbol files (new templinst symbols).
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 03 Dec 2016 12:58:58 +0100
+
+kwallet-kf5 (5.28.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.27.0-1).
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:05:36 +0100
+
+kwallet-kf5 (5.28.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Nov 2016 09:45:53 +0000
+
+kwallet-kf5 (5.27.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:04:56 +0200
+
+kwallet-kf5 (5.27.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 08 Oct 2016 11:33:03 +0000
+
+kwallet-kf5 (5.26.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files with the buildds logs.
+
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:01:20 +0200
+
+kwallet-kf5 (5.25.0-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Fix previous upload
+  * Bump group breaks (5.25)
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 12:56:12 +0200
+
+kwallet-kf5 (5.25.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 13 Aug 2016 20:16:40 +0000
+
+kwallet-kf5 (5.24.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Jul 2016 07:42:50 +0000
+
+kwallet-kf5 (5.23.0-3) unstable; urgency=medium
+
+  * Fix previous upload.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 17 Jul 2016 17:23:18 +0200
+
+kwallet-kf5 (5.23.0-2) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Add new patch: blowfish_endianess.diff (Closes: 828160)
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 16 Jul 2016 17:38:44 +0200
+
+kwallet-kf5 (5.23.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.22.0-1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jun 2016 22:43:10 +0200
+
+kwallet-kf5 (5.23.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 13 Jun 2016 09:40:39 +0000
+
+kwallet-kf5 (5.22.0-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
+    replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update acc test script
+  * uscan no longer supports more than one main upstream tarball being listed
+
+  [ Automatic packaging ]
+  * Update symbols files with the buildds logs (5.19.0-1)
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 May 2016 08:57:10 +0200
+
+kwallet-kf5 (5.22.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 17 May 2016 07:37:19 +0000
+
+kwallet-kf5 (5.21.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Apr 2016 09:23:48 +0000
+
+kwallet-kf5 (5.20.0-0neon) wily; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 01 Apr 2016 11:08:24 +0000
+
+kwallet-kf5 (5.19.0-1) experimental; urgency=medium
+
+  * New upstream release (5.19.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:28 +0100
+
+kwallet-kf5 (5.18.0-1) experimental; urgency=medium
+
+  * New upstream release (5.17.0).
+  * New upstream release (5.18.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:20 +0100
+
+kwallet-kf5 (5.16.0-1) unstable; urgency=medium
+
+  * New upstream release (5.16.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:37 +0100
+
+kwallet-kf5 (5.15.0-1) unstable; urgency=medium
+
+  * New upstream release (5.15.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:37 +0200
+
+kwallet-kf5 (5.15.0-0ubuntu3) xenial; urgency=medium
+
+  * Fix autopackagetests by adding allow-stderr to the requirements.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 03 Nov 2015 15:34:49 +0100
+
+kwallet-kf5 (5.15.0-0ubuntu2) wily; urgency=medium
+
+  * Add upstream_initialize-socket-size-with-correct-value.patch to resolve a
+    rather impactful error where kwalletd5, when started through the PAM,
+    would fail to communicate with its environment socket and thus end up with
+    a night empty environment rendering the daemon broken.
+    The patch has been refreshed on top of 5.15 as git master has additional
+    changes.
+    https://bugs.kde.org/show_bug.cgi?id=351805
+
+ -- Harald Sitter <sitter@kde.org>  Wed, 21 Oct 2015 07:41:12 +0200
+
+kwallet-kf5 (5.15.0-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:57:35 +0100
+
+kwallet-kf5 (5.14.0-1) unstable; urgency=medium
+
+  [ Scott Kitterman ]
+  * Team upload.
+  * Add the libkf5wallet-bin dependency in the symbols files, to have a
+    working kwallet on programs that link against libkf5wallet5.
+    (Closes: #798724)
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.14.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:49:36 +0200
+
+kwallet-kf5 (5.14.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:27:35 +0100
+
+kwallet-kf5 (5.13.0-2) unstable; urgency=medium
+
+  * Add kf5gpgmepp build dep, to build the gpg backend.
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 13 Sep 2015 18:33:28 +0200
+
+kwallet-kf5 (5.13.0-1) unstable; urgency=medium
+
+  * New upstream release (5.13.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 10:18:37 +0200
+
+kwallet-kf5 (5.13.0-0ubuntu2) wily; urgency=medium
+
+  * Add upstream_Stop-showing-the-migration-wizard-by-default.patch to disable
+    the migration wizard dialog. Migration is in fact a non-destructive
+    import, so it can savely be run without any user input. This prevents
+    contextless kwallet dialogs on first login as well as first kwallet5
+    enabled logins (prequisite for pam unlocking experience)
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 24 Aug 2015 13:00:08 +0200
+
+kwallet-kf5 (5.13.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:33:17 +0200
+
+kwallet-kf5 (5.12.0-1) unstable; urgency=medium
+
+  * New upstream release (5.12.0).
+  * Add new build dep.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:43:51 +0200
+
+kwallet-kf5 (5.12.0-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * Fix merge.
+
+  [ José Manuel Santamaría Lema ]
+  * Update installed files.
+
+  [ Scarlett Clark ]
+  * Add above patch.
+  * Vivid backport.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 16:10:25 +0200
+
+kwallet-kf5 (5.11.0-1) unstable; urgency=medium
+
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 20:36:24 +0200
+
+kwallet-kf5 (5.10.0-0ubuntu2) wily; urgency=medium
+
+  * libkf5wallet-data Breaks/Replaces libkf5wallet5 (<< 5.10)
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 08 Jun 2015 11:06:38 +0200
+
+kwallet-kf5 (5.10.0-0ubuntu1) wily; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.10.0).
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 20:38:22 +0200
+
+kwallet-kf5 (5.9.0-1) experimental; urgency=medium
+
+  * New upstream release (5.9.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:26:09 +0200
+
+kwallet-kf5 (5.9.0-0ubuntu1.1) vivid; urgency=medium
+
+  * Add upstream_check-empty-wallet-migration.diff LP: #1434052
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 Apr 2015 15:28:12 +0200
+
+kwallet-kf5 (5.9.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:17:04 +0200
+
+kwallet-kf5 (5.8.0-1) experimental; urgency=medium
+
+  * New upstream release (5.8.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:39:06 +0100
+
+kwallet-kf5 (5.8.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:28:48 +0100
+
+kwallet-kf5 (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release (5.7.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Mar 2015 22:57:55 +0100
+
+kwallet-kf5 (5.7.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:15:47 +0100
+
+kwallet-kf5 (5.6.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright information.
+  * Split -data package and update install files.
+  * Update watch file.
+  * Add acc autopkgtests.
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Jan 2015 09:05:21 +0100
+
+kwallet-kf5 (5.6.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 06 Jan 2015 19:46:09 +0100
+
+kwallet-kf5 (5.5.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 11:21:15 +0100
+
+kwallet-kf5 (5.4.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Nov 2014 15:09:36 +0100
+
+kwallet-kf5 (5.3.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Oct 2014 11:18:45 +0100
+
+kwallet-kf5 (5.2.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:49:48 +0200
+
+kwallet-kf5 (5.1.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Removed patches applied upstream.
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:25:49 +0200
+
+kwallet-kf5 (5.0.0-0ubuntu1) utopic; urgency=medium
+
+  * Initial stable upstream release
+  * Add patches recommended by upstream:
+    - upstream_default-choice.diff
+    - upstream_first-use-logic.diff
+    - upstream_first-use-name.diff
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 22 Jul 2014 16:07:20 +0200

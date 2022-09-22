@@ -1,0 +1,7 @@
+usr/include/KF5/KWallet/
+usr/include/KF5/kwallet_version.h
+usr/lib/*/cmake/KF5Wallet/
+usr/lib/*/libKF5Wallet.so
+usr/lib/*/libkwalletbackend5.so
+usr/lib/*/qt5/mkspecs/modules/qt_KWallet.pri
+usr/share/dbus-1/interfaces/kf5_org.kde.KWallet.xml

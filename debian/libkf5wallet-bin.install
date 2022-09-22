@@ -1,0 +1,7 @@
+usr/bin/kwallet-query
+usr/bin/kwalletd5
+usr/share/applications/org.kde.kwalletd5.desktop
+usr/share/dbus-1/services/org.kde.kwalletd5.service
+usr/share/knotifications5/kwalletd5.notifyrc
+usr/share/kservices5/kwalletd5.desktop
+usr/share/man/man1/kwallet-query.1

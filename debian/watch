@@ -1,0 +1,3 @@
+version=3
+opts=pgpsigurlmangle=s/$/.sig/ \
+https://download.kde.org/stable/frameworks/([\d.]+)/kwallet-([\d.]+)\.tar\.xz
