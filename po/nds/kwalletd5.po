@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-26 00:40+0000\n"
+"POT-Creation-Date: 2022-12-03 00:43+0000\n"
 "PO-Revision-Date: 2014-08-13 00:15+0200\n"
 "Last-Translator: Sönke Dibbern <s_dibbern@web.de>\n"
 "Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
@@ -97,7 +97,7 @@ msgstr ""
 msgid "Retry"
 msgstr "Nochmaal versöken"
 
-#: backend/backendpersisthandler.cpp:633
+#: backend/backendpersisthandler.cpp:634
 #, kde-format
 msgid ""
 "<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If "
@@ -108,12 +108,12 @@ msgstr ""
 "Smartkoort bruukst, kiek wat de propper sitten deit, un versöök dat nochmaal."
 "<br><br>GPG-Fehler weer <b>%2</b></qt>"
 
-#: backend/backendpersisthandler.cpp:637
+#: backend/backendpersisthandler.cpp:638
 #, kde-format
 msgid "kwalletd GPG backend"
 msgstr "kwalletd-Hülpprogramm GPG"
 
-#: backend/backendpersisthandler.cpp:683
+#: backend/backendpersisthandler.cpp:684
 #, kde-format
 msgid ""
 "<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was "
@@ -124,53 +124,53 @@ msgstr ""
 "mit de GPG-ID <b>%2</b> verslötelt, man disse Slötel lett sik op Dien "
 "Reekner nich finnen.</qt>"
 
-#: backend/kwalletbackend.cc:249
+#: backend/kwalletbackend.cc:266
 #, kde-format
 msgid "Already open."
 msgstr "Is al opmaakt."
 
-#: backend/kwalletbackend.cc:251
+#: backend/kwalletbackend.cc:268
 #, kde-format
 msgid "Error opening file."
 msgstr "Fehler bi't Opmaken vun de Datei."
 
-#: backend/kwalletbackend.cc:253
+#: backend/kwalletbackend.cc:270
 #, kde-format
 msgid "Not a wallet file."
 msgstr "Keen Knippdatei."
 
-#: backend/kwalletbackend.cc:255
+#: backend/kwalletbackend.cc:272
 #, kde-format
 msgid "Unsupported file format revision."
 msgstr "Disse Verschoon vun't Dateiformaat warrt nich ünnerstütt."
 
-#: backend/kwalletbackend.cc:259
+#: backend/kwalletbackend.cc:276
 #, kde-format
 msgid "Unknown encryption scheme."
 msgstr "Verslötelmetood is nich begäng."
 
-#: backend/kwalletbackend.cc:261
+#: backend/kwalletbackend.cc:278
 #, kde-format
 msgid "Corrupt file?"
 msgstr "Datei schaadhaftig?"
 
-#: backend/kwalletbackend.cc:263
+#: backend/kwalletbackend.cc:280
 #, kde-format
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr ""
 "Fehler bi't Pröven vun de Knipp ehr Integriteet, villicht is se schaadhaftig."
 
-#: backend/kwalletbackend.cc:267
+#: backend/kwalletbackend.cc:284
 #, kde-format
 msgid "Read error - possibly incorrect password."
 msgstr "Fehler bi't Lesen - dat Passwoort mag leeg wesen."
 
-#: backend/kwalletbackend.cc:269
+#: backend/kwalletbackend.cc:286
 #, kde-format
 msgid "Decryption error."
 msgstr "Fehler bi't Opslöteln."
 
-#: backend/kwalletbackend.cc:445
+#: backend/kwalletbackend.cc:462
 #, kde-format
 msgid ""
 "Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
@@ -232,7 +232,7 @@ msgstr ""
 "Bitte söök den Typ för disse Knipp ut oder klick op Afbreken, wenn Du dat "
 "Programm dat nich verlöven wullt, wat dat de Knipp bruukt.</qt>"
 
-#: knewwalletdialog.cpp:127 knewwalletdialog.cpp:134 kwalletwizard.cpp:151
+#: knewwalletdialog.cpp:125 knewwalletdialog.cpp:132 kwalletwizard.cpp:151
 #: kwalletwizard.cpp:157
 #, fuzzy, kde-format
 #| msgid ""
@@ -245,7 +245,7 @@ msgstr ""
 "De QGpgME-Bibliotheek kunn dat OpenPGP-Protokoll nich torechtmaken. Prööv "
 "bitte Dien Systeeminstellen un versöök dat denn nochmaal."
 
-#: knewwalletdialog.cpp:155
+#: knewwalletdialog.cpp:153
 #, fuzzy, kde-format
 #| msgid ""
 #| "Seems that your system has no keys suitable for encryption. Please set-up "
@@ -330,7 +330,7 @@ msgstr "Klass'sch mit Blowfish verslötelt Datei"
 msgid "Use GPG encryption, for better protection"
 msgstr "GPG-Verslöteln bruken, för beter Schuul"
 
-#: kwalletd.cpp:570
+#: kwalletd.cpp:640
 #, kde-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
@@ -339,7 +339,7 @@ msgstr ""
 "<qt>KDE will de Knipp <b>%1</b> opmaken. Bitte giff nerrn dat Passwoort för "
 "disse Knipp in.</qt>"
 
-#: kwalletd.cpp:574
+#: kwalletd.cpp:644
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -349,19 +349,19 @@ msgstr ""
 "dat Passwoort för disse Knipp in.</qt>"
 
 #. i18n( "&Open" ), "wallet-open"));
-#: kwalletd.cpp:585 kwalletd.cpp:689 kwalletd.cpp:793 kwalletd.cpp:906
-#: kwalletd.cpp:929 kwalletd.cpp:940 kwalletd.cpp:945 kwalletd.cpp:1526
-#: main.cpp:168 main.cpp:170
+#: kwalletd.cpp:655 kwalletd.cpp:763 kwalletd.cpp:867 kwalletd.cpp:980
+#: kwalletd.cpp:1003 kwalletd.cpp:1014 kwalletd.cpp:1019 kwalletd.cpp:1609
+#: main.cpp:169 main.cpp:171
 #, kde-format
 msgid "KDE Wallet Service"
 msgstr "KDE-Deenst för Knippen"
 
-#: kwalletd.cpp:598
+#: kwalletd.cpp:670
 #, kde-format
 msgid "An application has requested to open a wallet (%1)."
 msgstr "En Programm will en Knipp opmaken (%1)."
 
-#: kwalletd.cpp:599
+#: kwalletd.cpp:671
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the (unnamed) application requesting a "
@@ -369,19 +369,19 @@ msgctxt ""
 msgid "Switch there"
 msgstr "Hierhen wesseln"
 
-#: kwalletd.cpp:601
+#: kwalletd.cpp:673
 #, kde-format
 msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr "<b>%1</b> will en Knipp opmaken (%2)."
 
-#: kwalletd.cpp:603
+#: kwalletd.cpp:675
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
 msgstr "Wesseln na %1"
 
-#: kwalletd.cpp:617 kwalletd.cpp:699
+#: kwalletd.cpp:691 kwalletd.cpp:773
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
@@ -390,7 +390,7 @@ msgstr ""
 "<qt>Fehler bi't Opmaken vun de Knipp <b>%1</b>. Versöök dat nochmaal. <br /"
 ">(Fehlerkode %2: %3)</qt>"
 
-#: kwalletd.cpp:665
+#: kwalletd.cpp:739
 #, kde-format
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
@@ -402,7 +402,7 @@ msgstr ""
 "op Afbreken, wenn Du dat Programm dat nich verlöven wullt, wat dat de Knipp "
 "bruukt."
 
-#: kwalletd.cpp:670
+#: kwalletd.cpp:744
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -415,7 +415,7 @@ msgstr ""
 "\"Afbreken\", wenn Du ehr dat Programm dat nich verlöven wullt, wat dat de "
 "Knipp bruukt.</qt>"
 
-#: kwalletd.cpp:678
+#: kwalletd.cpp:752
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -426,7 +426,7 @@ msgstr ""
 "Passwoort för disse Knipp ut, oder klick op \"Afbreken\", wenn Du dat nich "
 "wullt.</qt>"
 
-#: kwalletd.cpp:683
+#: kwalletd.cpp:757
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -437,12 +437,12 @@ msgstr ""
 "opstellen. Bitte söök en Passwoort för disse Knipp ut, oder klick op "
 "\"Afbreken\", wenn Du dat nich wullt.</qt>"
 
-#: kwalletd.cpp:795
+#: kwalletd.cpp:869
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE will op de opmaakte Knipp <b>%1</b> togriepen.</qt>"
 
-#: kwalletd.cpp:797
+#: kwalletd.cpp:871
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
@@ -451,7 +451,7 @@ msgstr ""
 "<qt>Dat Programm <b>%1</b> will op de opmaakte Knipp <b>%2</b> togriepen.</"
 "qt>"
 
-#: kwalletd.cpp:905
+#: kwalletd.cpp:979
 #, kde-format
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
@@ -460,7 +460,7 @@ msgstr ""
 "Knipp lett sik nich opmaken. De Knipp mutt opmaakt wesen, wenn Du dat "
 "Passwoort ännern wullt."
 
-#: kwalletd.cpp:921
+#: kwalletd.cpp:995
 #, kde-format
 msgid ""
 "<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use "
@@ -471,23 +471,23 @@ msgstr ""
 "bitte de <b>GPG</b>-Warktüüch (so as <b>kleopatra</b>), wenn Du den Slötel "
 "sien Slötelsatz ännern wullt.</qt>"
 
-#: kwalletd.cpp:928
+#: kwalletd.cpp:1002
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>Söök bitte en nieg Passwoort för de Knipp <b>%1</b> ut.</qt>"
 
-#: kwalletd.cpp:940
+#: kwalletd.cpp:1014
 #, kde-format
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "Fehler bi't niege Verslöteln vun de Knipp. Passwoort wöör nich ännert."
 
-#: kwalletd.cpp:945
+#: kwalletd.cpp:1019
 #, kde-format
 msgid "Error reopening the wallet. Data may be lost."
 msgstr ""
 "Fehler bi't Wedderopmaken vun de Knipp. Villicht geev dat ok en Datenverlust."
 
-#: kwalletd.cpp:1525
+#: kwalletd.cpp:1608
 #, kde-format
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
@@ -713,47 +713,151 @@ msgstr ""
 msgid "What kind of encryption do you wish?"
 msgstr "Welk Verslötelmetood wullt Du bruken?"
 
-#: main.cpp:172
+#: main.cpp:173
 #, kde-format
 msgid "(C) 2002-2013, The KDE Developers"
 msgstr "(C) 2002-2013, De KDE-Schrievers"
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Valentin Rusu"
 msgstr "Valentin Rusu"
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Maintainer, GPG backend support"
 msgstr "Pleger, Ünnerstütten för't GPG-Hülpprogramm"
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Michael Leupold"
 msgstr "Michael Leupold"
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Former Maintainer"
 msgstr "Verleden Pleger"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "George Staikos"
 msgstr "George Staikos"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "Former maintainer"
 msgstr "Verleden Pleger"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "Thiago Maceira"
 msgstr "Thiago Maceira"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "D-Bus Interface"
 msgstr "D-Bus-Koppelsteed"
+
+#~ msgid "kwalletd"
+#~ msgstr "kwalletd"
+
+#~ msgid "Cannot read old wallet list. Aborting."
+#~ msgstr "Oolt Knippenlist lett sik nich lesen. Warrt afbraken."
+
+#~ msgid "KDE Wallet Migration Agent"
+#~ msgstr "KDE-Knippen-Ümwannelhölper"
+
+#, fuzzy
+#~| msgid "Migrating wallet: %1</p>"
+#~ msgid "Migrating wallet: %1"
+#~ msgstr "Knipp „%1“ warrt ümwannelt</p>"
+
+#~ msgid "* Creating KF5 wallet: %1"
+#~ msgstr "* KF5-Knipp „%1“ warrt opstellt"
+
+#~ msgid "ERROR when attempting new wallet creation. Aborting."
+#~ msgstr "Fehler bi't Opstellen vun en nieg Knipp. Warrt afbraken."
+
+#~ msgid "Cannot open KDE4 wallet named: %1"
+#~ msgstr "KDE-4-Knipp mit Naam „%1“ lett sik nich opmaken"
+
+#~ msgid "* Opened KDE4 wallet: %1"
+#~ msgstr "* KDE-4-Knipp „%1“ opmaakt"
+
+#~ msgid "Cannot retrieve folder list. Aborting."
+#~ msgstr "Ornerlist lett sik nich halen. Warrt afbraken."
+
+#~ msgid "* Migrating folder %1"
+#~ msgstr "* Orner „%1“ warrt ümwannelt"
+
+#~ msgid "Cannot retrieve folder %1 entries. Aborting."
+#~ msgstr "Indrääg binnen Orner „%1“ laat sik nich halen. Warrt afbraken."
+
+#~ msgid "Cannot retrieve key %1 info. Aborting."
+#~ msgstr ""
+#~ "Informatschonen för Slötel „%1“ laat sik nich halen. Warrt afbraken."
+
+#~ msgid "* SKIPPING entry %1 in folder %2 as it seems already migrated"
+#~ msgstr ""
+#~ "* As't lett wöör Indrag „%1“ binnen Orner „%2“ al ümwannelt. Warrt "
+#~ "utlaten."
+
+#~ msgid "Cannot retrieve key %1 data. Aborting."
+#~ msgstr "Daten för Slötel „%1“ laat sik nich halen. Warrt afbraken."
+
+#~ msgid "Cannot write entry %1 in the new wallet. Aborting."
+#~ msgstr ""
+#~ "Indrag „%1“ binnen de niege Knipp lett sik nich schrieven. Warrt afbraken."
+
+#~ msgid "DONE migrating wallet\n"
+#~ msgstr "Knipp wöör ümwannelt.\n"
+
+#~ msgid ""
+#~ "Congratulations! The system detected that you're running the latest "
+#~ "version of the KWallet, using KDE Frameworks 5.\n"
+#~ "\n"
+#~ "It seems that you also have KDE4 wallet(s) on your system.\n"
+#~ "\n"
+#~ "Would you like them to be migrated to this new KWallet version? The "
+#~ "operation will only take one minute to be performed.\n"
+#~ msgstr ""
+#~ "Graleren! Dat Systeem hett rutfunnen, Du bruukst de niegste Verschoon vun "
+#~ "KWallet över dat KDE-Rahmenwark 5.\n"
+#~ "\n"
+#~ "As't lett hest Du ok KDE-4-Knippen op Dien Systeem.\n"
+#~ "\n"
+#~ "Wullt Du de na de niege Verschoon ümwanneln? De Akschoon bruukt bloots en "
+#~ "poor Minuten.\n"
+
+#~ msgid "&Yes, migrate my wallets now."
+#~ msgstr "&Jo, de olen Knippen bitte nu ümwanneln."
+
+#~ msgid ""
+#~ "No, I'd rather do this upon ne&xt session start,\n"
+#~ "and I'll cancel this wizard for now."
+#~ msgstr ""
+#~ "&Nee, bitte bi den nakamen Törnstart ümwanneln\n"
+#~ "un den Hölper nu utmaken."
+
+#~ msgid "No, and p&lease do not prompt me again."
+#~ msgstr "Nee, un ok nich nochmaal &fragen."
+
+#~ msgctxt "Text of a button to ignore the open-wallet notification"
+#~ msgid "Ignore"
+#~ msgstr "Övergahn"
+
+#~ msgid "&Open"
+#~ msgstr "&Opmaken"
+
+#~ msgid "C&reate"
+#~ msgstr "&Opstellen"
+
+#, fuzzy
+#~| msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+#~ msgid ""
+#~ "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira, Valentin "
+#~ "Rusu"
+#~ msgstr "© 2002-2008: George Staikos, Michael Leupold, Thiago Maceira"
+
+#~ msgid "Maintainer"
+#~ msgstr "Pleger"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-26 00:40+0000\n"
+"POT-Creation-Date: 2022-12-03 00:43+0000\n"
 "PO-Revision-Date: 2021-07-04 09:44+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Retry"
 msgstr "Försök igen"
 
-#: backend/backendpersisthandler.cpp:633
+#: backend/backendpersisthandler.cpp:634
 #, kde-format
 msgid ""
 "<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If "
@@ -106,12 +106,12 @@ msgstr ""
 "ett smartkort, försäkra dig om att det är inmatat och försök igen."
 "<br><br>GPG-felet är <b>%2</b></qt>"
 
-#: backend/backendpersisthandler.cpp:637
+#: backend/backendpersisthandler.cpp:638
 #, kde-format
 msgid "kwalletd GPG backend"
 msgstr "GPG-bakgrundsprogram för plånboken"
 
-#: backend/backendpersisthandler.cpp:683
+#: backend/backendpersisthandler.cpp:684
 #, kde-format
 msgid ""
 "<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was "
@@ -122,52 +122,52 @@ msgstr ""
 "användning av GPG-nyckeln <b>%2</b> men nyckeln hittades inte på systemet.</"
 "qt>"
 
-#: backend/kwalletbackend.cc:249
+#: backend/kwalletbackend.cc:266
 #, kde-format
 msgid "Already open."
 msgstr "Redan öppen."
 
-#: backend/kwalletbackend.cc:251
+#: backend/kwalletbackend.cc:268
 #, kde-format
 msgid "Error opening file."
 msgstr "Fel när filen skulle öppnas."
 
-#: backend/kwalletbackend.cc:253
+#: backend/kwalletbackend.cc:270
 #, kde-format
 msgid "Not a wallet file."
 msgstr "Inte en plånboksfil."
 
-#: backend/kwalletbackend.cc:255
+#: backend/kwalletbackend.cc:272
 #, kde-format
 msgid "Unsupported file format revision."
 msgstr "Version av filformatet som inte stöds."
 
-#: backend/kwalletbackend.cc:259
+#: backend/kwalletbackend.cc:276
 #, kde-format
 msgid "Unknown encryption scheme."
 msgstr "Okänd krypteringsmetod."
 
-#: backend/kwalletbackend.cc:261
+#: backend/kwalletbackend.cc:278
 #, kde-format
 msgid "Corrupt file?"
 msgstr "Felaktig fil?"
 
-#: backend/kwalletbackend.cc:263
+#: backend/kwalletbackend.cc:280
 #, kde-format
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr "Fel vid validering av plånbokens integritet. Möjligen felaktig."
 
-#: backend/kwalletbackend.cc:267
+#: backend/kwalletbackend.cc:284
 #, kde-format
 msgid "Read error - possibly incorrect password."
 msgstr "Läsfel: möjligen felaktigt lösenord."
 
-#: backend/kwalletbackend.cc:269
+#: backend/kwalletbackend.cc:286
 #, kde-format
 msgid "Decryption error."
 msgstr "Avkodningsfel."
 
-#: backend/kwalletbackend.cc:445
+#: backend/kwalletbackend.cc:462
 #, kde-format
 msgid ""
 "Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
@@ -227,7 +227,7 @@ msgstr ""
 "sätt. Ange den nya plånbokens typ eller klicka på Avbryt för att neka "
 "programmets begäran.</qt>"
 
-#: knewwalletdialog.cpp:127 knewwalletdialog.cpp:134 kwalletwizard.cpp:151
+#: knewwalletdialog.cpp:125 knewwalletdialog.cpp:132 kwalletwizard.cpp:151
 #: kwalletwizard.cpp:157
 #, kde-format
 msgid ""
@@ -237,7 +237,7 @@ msgstr ""
 "Initiering av biblioteket GpgME för OpenPGP-protokollet misslyckades. "
 "Kontrollera systemets inställning och försök igen."
 
-#: knewwalletdialog.cpp:155
+#: knewwalletdialog.cpp:153
 #, kde-format
 msgid ""
 "Seems that your system has no keys suitable for encryption. Please set-up at "
@@ -315,7 +315,7 @@ msgstr "Klassisk, fil krypterad med Blowfish"
 msgid "Use GPG encryption, for better protection"
 msgstr "Använd GPG-kryptering, för bättre skydd"
 
-#: kwalletd.cpp:570
+#: kwalletd.cpp:640
 #, kde-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
@@ -324,7 +324,7 @@ msgstr ""
 "<qt>KDE har begärt att plånboken '<b>%1</b>' ska öppnas. Ange plånbokens "
 "lösenord nedan.</qt>"
 
-#: kwalletd.cpp:574
+#: kwalletd.cpp:644
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -334,19 +334,19 @@ msgstr ""
 "Ange plånbokens lösenord nedan.</qt>"
 
 #. i18n( "&Open" ), "wallet-open"));
-#: kwalletd.cpp:585 kwalletd.cpp:689 kwalletd.cpp:793 kwalletd.cpp:906
-#: kwalletd.cpp:929 kwalletd.cpp:940 kwalletd.cpp:945 kwalletd.cpp:1526
-#: main.cpp:168 main.cpp:170
+#: kwalletd.cpp:655 kwalletd.cpp:763 kwalletd.cpp:867 kwalletd.cpp:980
+#: kwalletd.cpp:1003 kwalletd.cpp:1014 kwalletd.cpp:1019 kwalletd.cpp:1609
+#: main.cpp:169 main.cpp:171
 #, kde-format
 msgid "KDE Wallet Service"
 msgstr "KDE:s plånbokstjänst"
 
-#: kwalletd.cpp:598
+#: kwalletd.cpp:670
 #, kde-format
 msgid "An application has requested to open a wallet (%1)."
 msgstr "Ett program har begärt att öppna en plånbok (%1)."
 
-#: kwalletd.cpp:599
+#: kwalletd.cpp:671
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the (unnamed) application requesting a "
@@ -354,19 +354,19 @@ msgctxt ""
 msgid "Switch there"
 msgstr "Byt dit"
 
-#: kwalletd.cpp:601
+#: kwalletd.cpp:673
 #, kde-format
 msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr "<b>%1</b> har begärt att öppna en plånbok (%2)."
 
-#: kwalletd.cpp:603
+#: kwalletd.cpp:675
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
 msgstr "Byt till %1"
 
-#: kwalletd.cpp:617 kwalletd.cpp:699
+#: kwalletd.cpp:691 kwalletd.cpp:773
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
@@ -375,7 +375,7 @@ msgstr ""
 "<qt>Fel när plånboken '<b>%1</b>' skulle öppnas. Försök igen.<br />(Felkod "
 "%2: %3)</qt>"
 
-#: kwalletd.cpp:665
+#: kwalletd.cpp:739
 #, kde-format
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
@@ -386,7 +386,7 @@ msgstr ""
 "information på ett säkert sätt. Ange ett lösenord som ska användas med "
 "plånboken, eller klicka på Avbryt för att neka programmets begäran."
 
-#: kwalletd.cpp:670
+#: kwalletd.cpp:744
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -399,7 +399,7 @@ msgstr ""
 "lösenord som ska användas med plånboken, eller klicka på Avbryt för att neka "
 "programmets begäran.</qt>"
 
-#: kwalletd.cpp:678
+#: kwalletd.cpp:752
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -410,7 +410,7 @@ msgstr ""
 "ett lösenord för plånboken, eller avbryt för att inte tillåta programmets "
 "begäran.</qt>"
 
-#: kwalletd.cpp:683
+#: kwalletd.cpp:757
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -421,12 +421,12 @@ msgstr ""
 "ska skapas. Välj ett lösenord för plånboken, eller avbryt för att inte "
 "tillåta programmets begäran.</qt>"
 
-#: kwalletd.cpp:795
+#: kwalletd.cpp:869
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE har begärt att komma åt den öppna plånboken '<b>%1</b>'.</qt>"
 
-#: kwalletd.cpp:797
+#: kwalletd.cpp:871
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
@@ -435,7 +435,7 @@ msgstr ""
 "<qt>Programmet '<b>%1</b>' har begärt att komma åt den öppna plånboken '<b>"
 "%2</b>'.</qt>"
 
-#: kwalletd.cpp:905
+#: kwalletd.cpp:979
 #, kde-format
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
@@ -444,7 +444,7 @@ msgstr ""
 "Kunde inte öppna plånboken. Plånboken måste öppnas för att kunna ändra "
 "lösenordet."
 
-#: kwalletd.cpp:921
+#: kwalletd.cpp:995
 #, kde-format
 msgid ""
 "<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use "
@@ -455,22 +455,22 @@ msgstr ""
 "b>. Använd ett <b>GPG-verktyg</b> (såsom <b>kleopatra</b>) för att ändra "
 "lösenordsfrasen som hör ihop med den nyckeln.</qt>"
 
-#: kwalletd.cpp:928
+#: kwalletd.cpp:1002
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>Välj ett nytt lösenord för plånboken '<b>%1</b>'.</qt>"
 
-#: kwalletd.cpp:940
+#: kwalletd.cpp:1014
 #, kde-format
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "Fel vid omkryptering av plånboken. Lösenordet ändrades inte."
 
-#: kwalletd.cpp:945
+#: kwalletd.cpp:1019
 #, kde-format
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "Fel när plånboken skulle återöppnas. Data kan ha gått förlorad."
 
-#: kwalletd.cpp:1525
+#: kwalletd.cpp:1608
 #, kde-format
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
@@ -688,47 +688,149 @@ msgstr ""
 msgid "What kind of encryption do you wish?"
 msgstr "Vilken typ av kryptering vill du använda?"
 
-#: main.cpp:172
+#: main.cpp:173
 #, kde-format
 msgid "(C) 2002-2013, The KDE Developers"
 msgstr "(C) 2002-2013, KDE-utvecklarna"
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Valentin Rusu"
 msgstr "Valentin Rusu"
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Maintainer, GPG backend support"
 msgstr "Underhåll, GPG-gränssnittsstöd"
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Michael Leupold"
 msgstr "Michael Leupold"
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Former Maintainer"
 msgstr "Tidigare underhåll"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "George Staikos"
 msgstr "George Staikos"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "Former maintainer"
 msgstr "Tidigare underhåll"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "Thiago Maceira"
 msgstr "Thiago Maceira"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "D-Bus Interface"
 msgstr "D-Bus gränssnitt"
+
+#~ msgid "kwalletd"
+#~ msgstr "kwalletd"
+
+#~ msgid "Cannot read old wallet list. Aborting."
+#~ msgstr "Kan inte läsa gammal plånbokslista. Avbryter."
+
+#~ msgid "KDE Wallet Migration Agent"
+#~ msgstr "Konverteringsmodul för KDE:s plånbok"
+
+#~ msgid "Migrating wallet: %1"
+#~ msgstr "Konverterar plånbok: %1"
+
+#~ msgid "* Creating KF5 wallet: %1"
+#~ msgstr "* Skapar KF5-plånbok: %1"
+
+#~ msgid "ERROR when attempting new wallet creation. Aborting."
+#~ msgstr "FEL vid försök att skapa ny plånbok. Avbryter."
+
+#~ msgid "Cannot open KDE4 wallet named: %1"
+#~ msgstr "Kan inte öppna KDE4-plånbok kallad: %1"
+
+#~ msgid "* Opened KDE4 wallet: %1"
+#~ msgstr "* Öppnade KDE4-plånbok: %1"
+
+#~ msgid "Cannot retrieve folder list. Aborting."
+#~ msgstr "Kan inte hämta kataloglista. Avbryter."
+
+#~ msgid "* Migrating folder %1"
+#~ msgstr "* Konverterar katalog %1"
+
+#~ msgid "Cannot retrieve folder %1 entries. Aborting."
+#~ msgstr "Kan inte hämta poster i katalogen %1. Avbryter."
+
+#~ msgid "Cannot retrieve key %1 info. Aborting."
+#~ msgstr "Kan inte hämta information om nyckel %1. Avbryter."
+
+#~ msgid "* SKIPPING entry %1 in folder %2 as it seems already migrated"
+#~ msgstr ""
+#~ "* HOPPAR ÖVER post %1 i katalog %2 eftersom det verkar som den redan "
+#~ "konverterats"
+
+#~ msgid "Cannot retrieve key %1 data. Aborting."
+#~ msgstr "Kan inte hämta data för nyckel %1. Avbryter."
+
+#~ msgid "Cannot write entry %1 in the new wallet. Aborting."
+#~ msgstr "Kan inte skriva post %1 i den nya plånboken. Avbryter."
+
+#~ msgid "DONE migrating wallet\n"
+#~ msgstr "KLAR med konvertering av plånboken\n"
+
+#~ msgid ""
+#~ "Congratulations! The system detected that you're running the latest "
+#~ "version of the KWallet, using KDE Frameworks 5.\n"
+#~ "\n"
+#~ "It seems that you also have KDE4 wallet(s) on your system.\n"
+#~ "\n"
+#~ "Would you like them to be migrated to this new KWallet version? The "
+#~ "operation will only take one minute to be performed.\n"
+#~ msgstr ""
+#~ "Gratulerar! Systemet har detekterat att du använder den senaste versionen "
+#~ "av plånboken, med KDE Ramverk 5.\n"
+#~ "\n"
+#~ "Det verkar som om du också har KDE4-plånböcker i systemet.\n"
+#~ "\n"
+#~ "Vill du att de ska konverteras till den nya versionen av plånboken? Det "
+#~ "tar bara någon minut att utföra åtgärden.\n"
+
+#~ msgid "&Yes, migrate my wallets now."
+#~ msgstr "&Ja, konvertera mina plånböcker nu"
+
+#~ msgid ""
+#~ "No, I'd rather do this upon ne&xt session start,\n"
+#~ "and I'll cancel this wizard for now."
+#~ msgstr ""
+#~ "&Nej, jag gör det hellre vid nästa session,\n"
+#~ "och jag avbryter guiden för tillfället"
+
+#~ msgid "No, and p&lease do not prompt me again."
+#~ msgstr "Nej, och &fråga mig inte igen"
+
+#~ msgid "Form"
+#~ msgstr "Formulär"
+
+#~ msgctxt "Text of a button to ignore the open-wallet notification"
+#~ msgid "Ignore"
+#~ msgstr "Ignorera"
+
+#~ msgid "&Open"
+#~ msgstr "Ö&ppna"
+
+#~ msgid "C&reate"
+#~ msgstr "&Skapa"
+
+#~ msgid ""
+#~ "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira, Valentin "
+#~ "Rusu"
+#~ msgstr ""
+#~ "© 2002-2008 George Staikos, Michael Leupold, Thiago Maceira, Valentin Rusu"
+
+#~ msgid "Maintainer"
+#~ msgstr "Utvecklare"

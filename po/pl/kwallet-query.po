@@ -133,3 +133,12 @@ msgstr "Nie można odczytać wartości wpisu %1 z portfela %2"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Nie można zapisać wartości wpisu %1 do portfela %2"
+
+#~ msgid "wallet"
+#~ msgstr "portfel"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"
+
+#~ msgid "'Passwords' folder not found"
+#~ msgstr "Nie znaleziono katalogu 'Hasła' "

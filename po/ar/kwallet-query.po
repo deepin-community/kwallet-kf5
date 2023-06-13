@@ -132,3 +132,6 @@ msgstr "فشلت قراءة قيمة المدخلة ”%1“ من المحفظة
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "فشلت كتابة قيمة المدخلة ”%1“ في المحفظة ”%2“"
+
+#~ msgid "wallet"
+#~ msgstr "المحفظة"

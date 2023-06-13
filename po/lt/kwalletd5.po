@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-26 00:40+0000\n"
+"POT-Creation-Date: 2022-12-03 00:43+0000\n"
 "PO-Revision-Date: 2021-08-21 13:44+0300\n"
 "Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
 "Language-Team: lt <kde-i18n-lt@kde.org>\n"
@@ -102,7 +102,7 @@ msgstr ""
 msgid "Retry"
 msgstr "Bandyti dar kartą"
 
-#: backend/backendpersisthandler.cpp:633
+#: backend/backendpersisthandler.cpp:634
 #, kde-format
 msgid ""
 "<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If "
@@ -113,12 +113,12 @@ msgstr ""
 "naudojate SmartCard, įsitikinkite, kad kortelė įdėta, o tuomet bandykite dar "
 "kartą.<br><br>GPG klaida buvo <b>%2</b></qt>"
 
-#: backend/backendpersisthandler.cpp:637
+#: backend/backendpersisthandler.cpp:638
 #, kde-format
 msgid "kwalletd GPG backend"
 msgstr "kwalletd GPG vidinė pusė"
 
-#: backend/backendpersisthandler.cpp:683
+#: backend/backendpersisthandler.cpp:684
 #, kde-format
 msgid ""
 "<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was "
@@ -129,52 +129,52 @@ msgstr ""
 "užšifruota naudojant GPG rakto ID <b>%2</b>, tačiau jūsų sistemoje šio rakto "
 "nepavyko rasti.</qt>"
 
-#: backend/kwalletbackend.cc:249
+#: backend/kwalletbackend.cc:266
 #, kde-format
 msgid "Already open."
 msgstr "Jau atverta."
 
-#: backend/kwalletbackend.cc:251
+#: backend/kwalletbackend.cc:268
 #, kde-format
 msgid "Error opening file."
 msgstr "Klaida atveriant failą."
 
-#: backend/kwalletbackend.cc:253
+#: backend/kwalletbackend.cc:270
 #, kde-format
 msgid "Not a wallet file."
 msgstr "Nėra slaptažodinės failas."
 
-#: backend/kwalletbackend.cc:255
+#: backend/kwalletbackend.cc:272
 #, kde-format
 msgid "Unsupported file format revision."
 msgstr "Nepalaikomas failo formato poversijis."
 
-#: backend/kwalletbackend.cc:259
+#: backend/kwalletbackend.cc:276
 #, kde-format
 msgid "Unknown encryption scheme."
 msgstr "Nežinoma šifravimo schema."
 
-#: backend/kwalletbackend.cc:261
+#: backend/kwalletbackend.cc:278
 #, kde-format
 msgid "Corrupt file?"
 msgstr "Sugadintas failas?"
 
-#: backend/kwalletbackend.cc:263
+#: backend/kwalletbackend.cc:280
 #, kde-format
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr "Klaida tikrinant slaptažodinės vientisumą. Ji gali būti sugadinta."
 
-#: backend/kwalletbackend.cc:267
+#: backend/kwalletbackend.cc:284
 #, kde-format
 msgid "Read error - possibly incorrect password."
 msgstr "Skaitymo klaida - galimai neteisingas slaptažodis."
 
-#: backend/kwalletbackend.cc:269
+#: backend/kwalletbackend.cc:286
 #, kde-format
 msgid "Decryption error."
 msgstr "Iššifravimo klaida."
 
-#: backend/kwalletbackend.cc:445
+#: backend/kwalletbackend.cc:462
 #, kde-format
 msgid ""
 "Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
@@ -235,7 +235,7 @@ msgstr ""
 "duomenis. Žemiau pasirinkite naujos slaptažodinės tipą arba, norėdami "
 "atmesti programos prašymą, spustelėkite \"Atsisakyti\".</qt>"
 
-#: knewwalletdialog.cpp:127 knewwalletdialog.cpp:134 kwalletwizard.cpp:151
+#: knewwalletdialog.cpp:125 knewwalletdialog.cpp:132 kwalletwizard.cpp:151
 #: kwalletwizard.cpp:157
 #, kde-format
 msgid ""
@@ -245,7 +245,7 @@ msgstr ""
 "Nepavyko inicijuoti GpgME bibliotekos OpenPGP protokolui. Patikrinkite savo "
 "sistemos konfigūraciją, o tuomet bandykite dar kartą."
 
-#: knewwalletdialog.cpp:155
+#: knewwalletdialog.cpp:153
 #, kde-format
 msgid ""
 "Seems that your system has no keys suitable for encryption. Please set-up at "
@@ -324,7 +324,7 @@ msgstr "Klasikinis, blowfish šifruotas failas"
 msgid "Use GPG encryption, for better protection"
 msgstr "Naudoti GPG šifravimą, geresnei apsaugai"
 
-#: kwalletd.cpp:570
+#: kwalletd.cpp:640
 #, kde-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
@@ -333,7 +333,7 @@ msgstr ""
 "<qt>KDE paprašė atverti slaptažodinę \"<b>%1</b>\". Žemiau įveskite šios "
 "slaptažodinės slaptažodį.</qt>"
 
-#: kwalletd.cpp:574
+#: kwalletd.cpp:644
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -343,19 +343,19 @@ msgstr ""
 "Žemiau įveskite šios slaptažodinės slaptažodį.</qt>"
 
 #. i18n( "&Open" ), "wallet-open"));
-#: kwalletd.cpp:585 kwalletd.cpp:689 kwalletd.cpp:793 kwalletd.cpp:906
-#: kwalletd.cpp:929 kwalletd.cpp:940 kwalletd.cpp:945 kwalletd.cpp:1526
-#: main.cpp:168 main.cpp:170
+#: kwalletd.cpp:655 kwalletd.cpp:763 kwalletd.cpp:867 kwalletd.cpp:980
+#: kwalletd.cpp:1003 kwalletd.cpp:1014 kwalletd.cpp:1019 kwalletd.cpp:1609
+#: main.cpp:169 main.cpp:171
 #, kde-format
 msgid "KDE Wallet Service"
 msgstr "KDE slaptažodinių tarnyba"
 
-#: kwalletd.cpp:598
+#: kwalletd.cpp:670
 #, kde-format
 msgid "An application has requested to open a wallet (%1)."
 msgstr "Programa paprašė atverti slaptažodinę (%1)."
 
-#: kwalletd.cpp:599
+#: kwalletd.cpp:671
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the (unnamed) application requesting a "
@@ -363,19 +363,19 @@ msgctxt ""
 msgid "Switch there"
 msgstr "Perjungti ten"
 
-#: kwalletd.cpp:601
+#: kwalletd.cpp:673
 #, kde-format
 msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr "<b>%1</b> paprašė atverti slaptažodinę (%2)."
 
-#: kwalletd.cpp:603
+#: kwalletd.cpp:675
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
 msgstr "Perjungti į %1"
 
-#: kwalletd.cpp:617 kwalletd.cpp:699
+#: kwalletd.cpp:691 kwalletd.cpp:773
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
@@ -384,7 +384,7 @@ msgstr ""
 "<qt>Klaida atveriant slaptažodinę \"<b>%1</b>\". Bandykite dar kartą.<br /"
 ">(Klaidos kodas %2: %3)</qt>"
 
-#: kwalletd.cpp:665
+#: kwalletd.cpp:739
 #, kde-format
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
@@ -395,7 +395,7 @@ msgstr ""
 "saugoti slaptus duomenis. Įrašykite su šia slaptažodine naudojamą slaptažodį "
 "arba, norėdami atmesti programos prašymą, spustelėkite \"Atsisakyti\"."
 
-#: kwalletd.cpp:670
+#: kwalletd.cpp:744
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -408,7 +408,7 @@ msgstr ""
 "slaptažodine naudojamą slaptažodį arba, norėdami atmesti programos prašymą, "
 "spustelėkite \"Atsisakyti\".</qt>"
 
-#: kwalletd.cpp:678
+#: kwalletd.cpp:752
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -419,7 +419,7 @@ msgstr ""
 "Pasirinkite šiai slaptažodinei slaptažodį arba, norėdami atmesti programos "
 "prašymą, spustelėkite \"Atsisakyti\".</qt>"
 
-#: kwalletd.cpp:683
+#: kwalletd.cpp:757
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -430,13 +430,13 @@ msgstr ""
 "\"<b>%2</b>\". Pasirinkite šiai slaptažodinei slaptažodį arba, norėdami "
 "atmesti programos prašymą, spustelėkite \"Atsisakyti\".</qt>"
 
-#: kwalletd.cpp:795
+#: kwalletd.cpp:869
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr ""
 "<qt>KDE paprašė prieigos prie atvertos slaptažodinės \"<b>%1</b>\".</qt>"
 
-#: kwalletd.cpp:797
+#: kwalletd.cpp:871
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
@@ -445,7 +445,7 @@ msgstr ""
 "<qt>Programa \"<b>%1</b>\" paprašė prieigos prie atvertos slaptažodinės \"<b>"
 "%2</b>\".</qt>"
 
-#: kwalletd.cpp:905
+#: kwalletd.cpp:979
 #, kde-format
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
@@ -454,7 +454,7 @@ msgstr ""
 "Nepavyko atverti slaptažodinės. Norint pakeisti slaptažodį, slaptažodinė "
 "privalo būti atverta."
 
-#: kwalletd.cpp:921
+#: kwalletd.cpp:995
 #, kde-format
 msgid ""
 "<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use "
@@ -465,22 +465,22 @@ msgstr ""
 "Norėdami pakeisti su tuo raktu susietą slaptafrazę, naudokite <b>GPG</b> "
 "įrankius (tokius kaip <b>kleopatra</b>).</qt>"
 
-#: kwalletd.cpp:928
+#: kwalletd.cpp:1002
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>Pasirinkite naują slaptažodį slaptažodinei „<b>%1</b>“.</qt>"
 
-#: kwalletd.cpp:940
+#: kwalletd.cpp:1014
 #, kde-format
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "Klaida iš naujo šifruojant slaptažodinę. Slaptažodis nebuvo pakeistas."
 
-#: kwalletd.cpp:945
+#: kwalletd.cpp:1019
 #, kde-format
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "Klaida iš naujo atveriant slaptažodinę. Gali būti prarasti duomenys."
 
-#: kwalletd.cpp:1525
+#: kwalletd.cpp:1608
 #, kde-format
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
@@ -703,47 +703,55 @@ msgstr ""
 msgid "What kind of encryption do you wish?"
 msgstr "Kokios šifravimo rūšies norėtumėte?"
 
-#: main.cpp:172
+#: main.cpp:173
 #, kde-format
 msgid "(C) 2002-2013, The KDE Developers"
 msgstr "(C) 2002-2013, KDE programuotojai"
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Valentin Rusu"
 msgstr "Valentin Rusu"
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Maintainer, GPG backend support"
 msgstr "Prižiūrėtojas, GPG vidinės pusės palaikymas"
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Michael Leupold"
 msgstr "Michael Leupold"
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Former Maintainer"
 msgstr "Ankstesnis prižiūrėtojas"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "George Staikos"
 msgstr "George Staikos"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "Former maintainer"
 msgstr "Ankstesnis prižiūrėtojas"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "Thiago Maceira"
 msgstr "Thiago Maceira"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "D-Bus Interface"
 msgstr "D-Bus sąsaja"
+
+#~ msgid "kwalletd"
+#~ msgstr "kwalletd"
+
+#, fuzzy
+#~| msgid "KDE Wallet Service"
+#~ msgid "KDE Wallet Migration Agent"
+#~ msgstr "KDE slaptažodžių tarnyba"

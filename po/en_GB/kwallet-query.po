@@ -130,3 +130,12 @@ msgstr "Failed to read entry %1 value from the %2 wallet"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Failed to write entry %1 value to %2 wallet"
+
+#~ msgid "wallet"
+#~ msgstr "wallet"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"
+
+#~ msgid "'Passwords' folder not found"
+#~ msgstr "'Passwords' folder not found"

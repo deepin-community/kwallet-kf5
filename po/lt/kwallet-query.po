@@ -134,3 +134,6 @@ msgstr "Nepavyko perskaityti įrašo %1 reikšmės iš %2 slaptažodinės"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Nepavyko įrašyti įrašo %1 reikšmės į %2 slaptažodinę"
+
+#~ msgid "wallet"
+#~ msgstr "slaptažodinė"

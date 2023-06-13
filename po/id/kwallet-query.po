@@ -15,7 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -130,3 +129,6 @@ msgstr "Gagal membaca nilai entri %1 dari wallet %2"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Gagal menulis nilai entri %1 untuk wallet %2"
+
+#~ msgid "wallet"
+#~ msgstr "wallet"

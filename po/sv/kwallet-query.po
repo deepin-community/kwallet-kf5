@@ -130,3 +130,16 @@ msgstr "Misslyckades läsa värde för post %1 från plånbok %2"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Misslyckades skriva värde för post %1 till plånbok %2"
+
+#~ msgid "wallet"
+#~ msgstr "Plånbok"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"
+
+#~| msgid "The folder %1 do not exist!"
+#~ msgid "The folder %1 doeos not exist!"
+#~ msgstr "Katalogen %1 finns inte."
+
+#~ msgid "'Passwords' folder not found"
+#~ msgstr "Katalogen 'Lösenord' hittades inte"

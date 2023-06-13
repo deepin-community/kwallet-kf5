@@ -135,3 +135,9 @@ msgstr "Cha deach leinn luach na h-innteirte %1 a leughadh on sporan %2"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Cha deach leinn luach na h-innteirte %1 a sgrìobhadh dhan sporan %2"
+
+#~ msgid "wallet"
+#~ msgstr "sporan"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"

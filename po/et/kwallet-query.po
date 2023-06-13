@@ -132,3 +132,6 @@ msgstr "Kirje %1 väärtuse lugemine %2 turvalaekast nurjus"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Kirje %1 väärtuse kirjutamine %2 turvalaekas nurjus"
+
+#~ msgid "wallet"
+#~ msgstr "turvalaegas"

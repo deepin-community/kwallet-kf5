@@ -1,5 +1,4 @@
 usr/include/KF5/KWallet/
-usr/include/KF5/kwallet_version.h
 usr/lib/*/cmake/KF5Wallet/
 usr/lib/*/libKF5Wallet.so
 usr/lib/*/libkwalletbackend5.so

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-26 00:40+0000\n"
+"POT-Creation-Date: 2022-12-03 00:43+0000\n"
 "PO-Revision-Date: 2009-12-05 20:36+0200\n"
 "Last-Translator: Viesturs Zarins <viesturs.zarins@mii.lu.lv>\n"
 "Language-Team: Latvian <locale@laka.lv>\n"
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Retry"
 msgstr ""
 
-#: backend/backendpersisthandler.cpp:633
+#: backend/backendpersisthandler.cpp:634
 #, kde-format
 msgid ""
 "<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If "
@@ -88,12 +88,12 @@ msgid ""
 "<br><br>GPG error was <b>%2</b></qt>"
 msgstr ""
 
-#: backend/backendpersisthandler.cpp:637
+#: backend/backendpersisthandler.cpp:638
 #, kde-format
 msgid "kwalletd GPG backend"
 msgstr ""
 
-#: backend/backendpersisthandler.cpp:683
+#: backend/backendpersisthandler.cpp:684
 #, kde-format
 msgid ""
 "<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was "
@@ -101,52 +101,52 @@ msgid ""
 "system.</qt>"
 msgstr ""
 
-#: backend/kwalletbackend.cc:249
+#: backend/kwalletbackend.cc:266
 #, kde-format
 msgid "Already open."
 msgstr "Jau atvērts."
 
-#: backend/kwalletbackend.cc:251
+#: backend/kwalletbackend.cc:268
 #, kde-format
 msgid "Error opening file."
 msgstr "Kļūda atverot failu."
 
-#: backend/kwalletbackend.cc:253
+#: backend/kwalletbackend.cc:270
 #, kde-format
 msgid "Not a wallet file."
 msgstr "Šis nav maka fails."
 
-#: backend/kwalletbackend.cc:255
+#: backend/kwalletbackend.cc:272
 #, kde-format
 msgid "Unsupported file format revision."
 msgstr "Neatbalstīta faila formāta versija."
 
-#: backend/kwalletbackend.cc:259
+#: backend/kwalletbackend.cc:276
 #, kde-format
 msgid "Unknown encryption scheme."
 msgstr "Nezināma šifrēšanas shēma."
 
-#: backend/kwalletbackend.cc:261
+#: backend/kwalletbackend.cc:278
 #, kde-format
 msgid "Corrupt file?"
 msgstr "Bojāts fails?"
 
-#: backend/kwalletbackend.cc:263
+#: backend/kwalletbackend.cc:280
 #, kde-format
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr "Kļūda pārbaudot maka integritāti. Varētu būt bojāts."
 
-#: backend/kwalletbackend.cc:267
+#: backend/kwalletbackend.cc:284
 #, kde-format
 msgid "Read error - possibly incorrect password."
 msgstr "Lasīšanas kļūda - iespējams parole nav pareiza."
 
-#: backend/kwalletbackend.cc:269
+#: backend/kwalletbackend.cc:286
 #, kde-format
 msgid "Decryption error."
 msgstr "Atšifrēšanas kļūda."
 
-#: backend/kwalletbackend.cc:445
+#: backend/kwalletbackend.cc:462
 #, kde-format
 msgid ""
 "Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
@@ -210,7 +210,7 @@ msgstr ""
 "sensitīvu datu drošai glabāšanai. Lūdzu ievadiet maka paroli, vai nospiediet "
 "atcelt, lai noraidītu programmas pieprasījumu.</qt>"
 
-#: knewwalletdialog.cpp:127 knewwalletdialog.cpp:134 kwalletwizard.cpp:151
+#: knewwalletdialog.cpp:125 knewwalletdialog.cpp:132 kwalletwizard.cpp:151
 #: kwalletwizard.cpp:157
 #, kde-format
 msgid ""
@@ -218,7 +218,7 @@ msgid ""
 "check your system's configuration then try again."
 msgstr ""
 
-#: knewwalletdialog.cpp:155
+#: knewwalletdialog.cpp:153
 #, kde-format
 msgid ""
 "Seems that your system has no keys suitable for encryption. Please set-up at "
@@ -295,7 +295,7 @@ msgstr ""
 msgid "Use GPG encryption, for better protection"
 msgstr ""
 
-#: kwalletd.cpp:570
+#: kwalletd.cpp:640
 #, kde-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
@@ -304,7 +304,7 @@ msgstr ""
 "<qt>KDE pieprasīja atvērt maku '<b>%1</b>'. Lūdzu ievadiet šī maka paroli.</"
 "qt>"
 
-#: kwalletd.cpp:574
+#: kwalletd.cpp:644
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -314,20 +314,20 @@ msgstr ""
 "šī maka paroli.</qt>"
 
 #. i18n( "&Open" ), "wallet-open"));
-#: kwalletd.cpp:585 kwalletd.cpp:689 kwalletd.cpp:793 kwalletd.cpp:906
-#: kwalletd.cpp:929 kwalletd.cpp:940 kwalletd.cpp:945 kwalletd.cpp:1526
-#: main.cpp:168 main.cpp:170
+#: kwalletd.cpp:655 kwalletd.cpp:763 kwalletd.cpp:867 kwalletd.cpp:980
+#: kwalletd.cpp:1003 kwalletd.cpp:1014 kwalletd.cpp:1019 kwalletd.cpp:1609
+#: main.cpp:169 main.cpp:171
 #, kde-format
 msgid "KDE Wallet Service"
 msgstr "KDE maka serviss"
 
-#: kwalletd.cpp:598
+#: kwalletd.cpp:670
 #, fuzzy, kde-format
 #| msgid "<b>KDE</b> has requested to open a wallet (%1)."
 msgid "An application has requested to open a wallet (%1)."
 msgstr "<b>KDE</b> pieprasīja piekļuvi atvērtam makam (%1)."
 
-#: kwalletd.cpp:599
+#: kwalletd.cpp:671
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the (unnamed) application requesting a "
@@ -335,19 +335,19 @@ msgctxt ""
 msgid "Switch there"
 msgstr "Pārslēgties uz to"
 
-#: kwalletd.cpp:601
+#: kwalletd.cpp:673
 #, kde-format
 msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr "<b>%1</b> pieprasīja atvērt maku (%2)."
 
-#: kwalletd.cpp:603
+#: kwalletd.cpp:675
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
 msgstr "Pārslēgties uz %1"
 
-#: kwalletd.cpp:617 kwalletd.cpp:699
+#: kwalletd.cpp:691 kwalletd.cpp:773
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
@@ -356,7 +356,7 @@ msgstr ""
 "<qt>Kļūda atverot maku '<b>%1</b>'. Lūdzu mēģiniet vēlreiz. <br />(Kļūdas "
 "kods %2:%3)</qt>"
 
-#: kwalletd.cpp:665
+#: kwalletd.cpp:739
 #, kde-format
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
@@ -367,7 +367,7 @@ msgstr ""
 "glabāšanai. Lūdzu ievadiet šī maka paroli, vai nospiediet atcelt, lai "
 "noraidītu programmas pieprasījumu."
 
-#: kwalletd.cpp:670
+#: kwalletd.cpp:744
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -379,7 +379,7 @@ msgstr ""
 "sensitīvu datu drošai glabāšanai. Lūdzu ievadiet maka paroli, vai nospiediet "
 "atcelt, lai noraidītu programmas pieprasījumu.</qt>"
 
-#: kwalletd.cpp:678
+#: kwalletd.cpp:752
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -389,7 +389,7 @@ msgstr ""
 "<qt>KDE pieprasīja izveidot jaunu maku ar nosaukumu '<b>%1</b>'. Lūdzu "
 "izvēlieties maka paroli, vai atcelt, lai noraidītu pieprasījumu.</qt>"
 
-#: kwalletd.cpp:683
+#: kwalletd.cpp:757
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -400,12 +400,12 @@ msgstr ""
 "%2</b>'. Lūdzu paroli šim makam, vai atcelt, lai noraidītu programmas "
 "pieprasījumu.</qt>"
 
-#: kwalletd.cpp:795
+#: kwalletd.cpp:869
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE pieprasīja piekļuvi atvērtam makam '<b>%1</b>'.</qt>"
 
-#: kwalletd.cpp:797
+#: kwalletd.cpp:871
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
@@ -414,14 +414,14 @@ msgstr ""
 "<qt>Programma '<b>%1</b>' pieprasīja piekļuvi atvērtam makam '<b>%2</b>'.</"
 "qt>"
 
-#: kwalletd.cpp:905
+#: kwalletd.cpp:979
 #, kde-format
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
 msgstr "Nevar atvērt maku. Makam ir jābūt atvērtam, lai nomainītu paroli."
 
-#: kwalletd.cpp:921
+#: kwalletd.cpp:995
 #, kde-format
 msgid ""
 "<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use "
@@ -429,22 +429,22 @@ msgid ""
 "associated to that key.</qt>"
 msgstr ""
 
-#: kwalletd.cpp:928
+#: kwalletd.cpp:1002
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>Lūdzu izvēlieties jaunu paroli makam '<b>%1</b>'.</qt>"
 
-#: kwalletd.cpp:940
+#: kwalletd.cpp:1014
 #, kde-format
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "Kļūda šifrējot maku. Parole netika nomainīta."
 
-#: kwalletd.cpp:945
+#: kwalletd.cpp:1019
 #, kde-format
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "Kļūda no jauna atvertot maku. Varētu būt zaudēti dati."
 
-#: kwalletd.cpp:1525
+#: kwalletd.cpp:1608
 #, kde-format
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
@@ -655,48 +655,78 @@ msgstr ""
 msgid "What kind of encryption do you wish?"
 msgstr ""
 
-#: main.cpp:172
+#: main.cpp:173
 #, kde-format
 msgid "(C) 2002-2013, The KDE Developers"
 msgstr ""
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Valentin Rusu"
 msgstr ""
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Maintainer, GPG backend support"
 msgstr ""
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Michael Leupold"
 msgstr "Michael Leupold"
 
-#: main.cpp:174
+#: main.cpp:175
 #, fuzzy, kde-format
 #| msgid "Former maintainer"
 msgid "Former Maintainer"
 msgstr "Iepriekšējais uzturētājs"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "George Staikos"
 msgstr "George Staikos"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "Former maintainer"
 msgstr "Iepriekšējais uzturētājs"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "Thiago Maceira"
 msgstr "Thiago Maceira"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "D-Bus Interface"
 msgstr "D-Bus saskarne"
+
+#, fuzzy
+#~| msgid "KWallet"
+#~ msgid "kwalletd"
+#~ msgstr "KWallet"
+
+#, fuzzy
+#~| msgid "KDE Wallet Service"
+#~ msgid "KDE Wallet Migration Agent"
+#~ msgstr "KDE maka serviss"
+
+#~ msgctxt "Text of a button to ignore the open-wallet notification"
+#~ msgid "Ignore"
+#~ msgstr "Ignorēt"
+
+#~ msgid "&Open"
+#~ msgstr "&Atvērt"
+
+#~ msgid "C&reate"
+#~ msgstr "Izv&eidot"
+
+#, fuzzy
+#~| msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+#~ msgid ""
+#~ "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira, Valentin "
+#~ "Rusu"
+#~ msgstr "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+
+#~ msgid "Maintainer"
+#~ msgstr "Uzturētājs"

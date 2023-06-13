@@ -135,3 +135,6 @@ msgstr "Huts egin du %2 zorroko %1 sarrera balioa irakurtzean"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Huts egin du %2 zorroko %1 sarrera balioa idaztean"
+
+#~ msgid "wallet"
+#~ msgstr "zorroa"

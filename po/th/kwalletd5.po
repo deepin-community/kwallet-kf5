@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-26 00:40+0000\n"
+"POT-Creation-Date: 2022-12-03 00:43+0000\n"
 "PO-Revision-Date: 2010-02-26 14:38+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -79,7 +79,7 @@ msgstr ""
 msgid "Retry"
 msgstr ""
 
-#: backend/backendpersisthandler.cpp:633
+#: backend/backendpersisthandler.cpp:634
 #, kde-format
 msgid ""
 "<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If "
@@ -87,12 +87,12 @@ msgid ""
 "<br><br>GPG error was <b>%2</b></qt>"
 msgstr ""
 
-#: backend/backendpersisthandler.cpp:637
+#: backend/backendpersisthandler.cpp:638
 #, kde-format
 msgid "kwalletd GPG backend"
 msgstr ""
 
-#: backend/backendpersisthandler.cpp:683
+#: backend/backendpersisthandler.cpp:684
 #, kde-format
 msgid ""
 "<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was "
@@ -100,52 +100,52 @@ msgid ""
 "system.</qt>"
 msgstr ""
 
-#: backend/kwalletbackend.cc:249
+#: backend/kwalletbackend.cc:266
 #, kde-format
 msgid "Already open."
 msgstr "ถูกเปิดอยู่แล้ว"
 
-#: backend/kwalletbackend.cc:251
+#: backend/kwalletbackend.cc:268
 #, kde-format
 msgid "Error opening file."
 msgstr "การเปิดแฟ้มผิดพลาด"
 
-#: backend/kwalletbackend.cc:253
+#: backend/kwalletbackend.cc:270
 #, kde-format
 msgid "Not a wallet file."
 msgstr "ไม่ใช่แฟ้มของ wallet"
 
-#: backend/kwalletbackend.cc:255
+#: backend/kwalletbackend.cc:272
 #, kde-format
 msgid "Unsupported file format revision."
 msgstr "รูปแบบแฟ้มรุ่นใหม่ยังไม่ถูกรองรับ"
 
-#: backend/kwalletbackend.cc:259
+#: backend/kwalletbackend.cc:276
 #, kde-format
 msgid "Unknown encryption scheme."
 msgstr "ไม่ทราบรูปแบบการเข้ารหัส"
 
-#: backend/kwalletbackend.cc:261
+#: backend/kwalletbackend.cc:278
 #, kde-format
 msgid "Corrupt file?"
 msgstr "แฟ้มเสียหายหรือไม่ ?"
 
-#: backend/kwalletbackend.cc:263
+#: backend/kwalletbackend.cc:280
 #, kde-format
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr "เกิดข้อผิดพลาดในการตรวจสอบการรวมกับ wallet ซึ่งอาจเป็นเพราะแฟ้มเสียหายก็ได้"
 
-#: backend/kwalletbackend.cc:267
+#: backend/kwalletbackend.cc:284
 #, kde-format
 msgid "Read error - possibly incorrect password."
 msgstr "การอ่านผิดพลาด - รหัสผ่านอาจจะไม่ถูกต้อง"
 
-#: backend/kwalletbackend.cc:269
+#: backend/kwalletbackend.cc:286
 #, kde-format
 msgid "Decryption error."
 msgstr "ผิดพลาดในการถอดรหัส"
 
-#: backend/kwalletbackend.cc:445
+#: backend/kwalletbackend.cc:462
 #, kde-format
 msgid ""
 "Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
@@ -208,7 +208,7 @@ msgstr ""
 "ซึ่งใช้สำหรับเก็บข้อมูลที่มีความสำคัญไว้อย่างปลอดภัย โปรดป้อนรหัสผ่านเพื่อใช้งานกระเป๋าคุมข้อมูลนี้ "
 "หรือคลิกที่ ยกเลิก เพื่อปฏิเสธการร้องขอของโปรแกรม</qt>"
 
-#: knewwalletdialog.cpp:127 knewwalletdialog.cpp:134 kwalletwizard.cpp:151
+#: knewwalletdialog.cpp:125 knewwalletdialog.cpp:132 kwalletwizard.cpp:151
 #: kwalletwizard.cpp:157
 #, kde-format
 msgid ""
@@ -216,7 +216,7 @@ msgid ""
 "check your system's configuration then try again."
 msgstr ""
 
-#: knewwalletdialog.cpp:155
+#: knewwalletdialog.cpp:153
 #, kde-format
 msgid ""
 "Seems that your system has no keys suitable for encryption. Please set-up at "
@@ -293,7 +293,7 @@ msgstr ""
 msgid "Use GPG encryption, for better protection"
 msgstr ""
 
-#: kwalletd.cpp:570
+#: kwalletd.cpp:640
 #, kde-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
@@ -302,7 +302,7 @@ msgstr ""
 "<qt>KDE ได้ทำการร้องขอที่จะเปิดกระเป๋าคุมข้อมูล '<b>%1</b>' "
 "โปรดป้อนรหัสผ่านสำหรับกระเป๋าคุมข้อมูลนี้ที่ด้านล่าง</qt>"
 
-#: kwalletd.cpp:574
+#: kwalletd.cpp:644
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -312,20 +312,20 @@ msgstr ""
 "โปรดป้อนรหัสผ่านสำหรับกระเป๋าคุมข้อมูลนี้ที่ด้านล่าง</qt>"
 
 #. i18n( "&Open" ), "wallet-open"));
-#: kwalletd.cpp:585 kwalletd.cpp:689 kwalletd.cpp:793 kwalletd.cpp:906
-#: kwalletd.cpp:929 kwalletd.cpp:940 kwalletd.cpp:945 kwalletd.cpp:1526
-#: main.cpp:168 main.cpp:170
+#: kwalletd.cpp:655 kwalletd.cpp:763 kwalletd.cpp:867 kwalletd.cpp:980
+#: kwalletd.cpp:1003 kwalletd.cpp:1014 kwalletd.cpp:1019 kwalletd.cpp:1609
+#: main.cpp:169 main.cpp:171
 #, kde-format
 msgid "KDE Wallet Service"
 msgstr "บริการกระเป๋าคุมข้อมูลของ KDE"
 
-#: kwalletd.cpp:598
+#: kwalletd.cpp:670
 #, fuzzy, kde-format
 #| msgid "<b>KDE</b> has requested to open a wallet (%1)."
 msgid "An application has requested to open a wallet (%1)."
 msgstr "<b>KDE</b> ได้ร้องขอใช้งานกระเป๋าคุมข้อมูล (%1)"
 
-#: kwalletd.cpp:599
+#: kwalletd.cpp:671
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the (unnamed) application requesting a "
@@ -333,19 +333,19 @@ msgctxt ""
 msgid "Switch there"
 msgstr "สลับมาที่นี่"
 
-#: kwalletd.cpp:601
+#: kwalletd.cpp:673
 #, kde-format
 msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr "โปรแกรม '<b>%1</b>' ได้ร้องขอใช้งานกระเป๋าคุมข้อมูล (%2)"
 
-#: kwalletd.cpp:603
+#: kwalletd.cpp:675
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
 msgstr "สลับไปยัง %1"
 
-#: kwalletd.cpp:617 kwalletd.cpp:699
+#: kwalletd.cpp:691 kwalletd.cpp:773
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
@@ -354,7 +354,7 @@ msgstr ""
 "<qt>เกิดข้อผิดพลาดในการเปิดกระเป๋าคุมข้อมูล '<b>%1</b>' โปรดลองใหม่อีกครั้ง<br /"
 ">(รหัสความผิดพลาด %2: %3)</qt>"
 
-#: kwalletd.cpp:665
+#: kwalletd.cpp:739
 #, kde-format
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
@@ -364,7 +364,7 @@ msgstr ""
 "KDE ได้ทำการร้องขอที่จะเปิดกระเป๋าคุมข้อมูล ซึ่งใช้สำหรับเก็บข้อมูลสำคัญไว้อย่างปลอดภัย "
 "โปรดป้อนรหัสผ่านเพื่อใช้งานกระเป๋าคุมข้อมูลนี้ หรือคลิกที่ ยกเลิก เพื่อปฏิเสธการร้องขอของโปรแกรม"
 
-#: kwalletd.cpp:670
+#: kwalletd.cpp:744
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -376,7 +376,7 @@ msgstr ""
 "ซึ่งใช้สำหรับเก็บข้อมูลที่มีความสำคัญไว้อย่างปลอดภัย โปรดป้อนรหัสผ่านเพื่อใช้งานกระเป๋าคุมข้อมูลนี้ "
 "หรือคลิกที่ ยกเลิก เพื่อปฏิเสธการร้องขอของโปรแกรม</qt>"
 
-#: kwalletd.cpp:678
+#: kwalletd.cpp:752
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -386,7 +386,7 @@ msgstr ""
 "<qt>KDE ได้ร้องขอให้มีการสร้างกระเป๋าคุมข้อมูลอันใหม่ ชื่อ '<b>%1</b>' "
 "โปรดเลือกรหัสอ่านสำหรับกระเป๋าคุมข้อมูลนี้ หรือคลิกยกเลิก เพื่อปฏิเสธการร้องขอของโปรแกรม</qt>"
 
-#: kwalletd.cpp:683
+#: kwalletd.cpp:757
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -396,19 +396,19 @@ msgstr ""
 "<qt>โปรแกรม '<b>%1</b>' ได้ร้องขอให้มีการสร้างกระเป๋าคุมข้อมูลตัวใหม่ ชื่อ '<b>%2</b>' "
 "โปรดเลือกรหัสผ่านสำหรับกระเป๋าคุมข้อมูลนี้ หรือคลิก ยกเลิกเพื่อปฏิเสธการร้องขอของโปรแกรม</qt>"
 
-#: kwalletd.cpp:795
+#: kwalletd.cpp:869
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE ได้ร้องขอใช้งานกระเป๋าคุมข้อมูล '<b>%1</b>'</qt>"
 
-#: kwalletd.cpp:797
+#: kwalletd.cpp:871
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
 "%2</b>'.</qt>"
 msgstr "<qt>โปรแกรม '<b>%1</b>' ได้ร้องขอใช้งานกระเป๋าคุมข้อมูล '<b>%2</b>'</qt>"
 
-#: kwalletd.cpp:905
+#: kwalletd.cpp:979
 #, kde-format
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
@@ -417,7 +417,7 @@ msgstr ""
 "ไม่สามารถเปิดใช้งานกระเป๋าคุมข้อมูลได้ โดยกระเป๋าคุมข้อมูล "
 "จะถูกเปิดใช้งานก็ต่อเมื่อมีคำสั่งให้ทำการเปลี่ยนรหัสผ่าน"
 
-#: kwalletd.cpp:921
+#: kwalletd.cpp:995
 #, kde-format
 msgid ""
 "<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use "
@@ -425,22 +425,22 @@ msgid ""
 "associated to that key.</qt>"
 msgstr ""
 
-#: kwalletd.cpp:928
+#: kwalletd.cpp:1002
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>โปรดเลือกรหัสผ่านใหม่สำหรับใช้กับกระเป๋าคุมข้อมูล '<b>%1</b>'</qt>"
 
-#: kwalletd.cpp:940
+#: kwalletd.cpp:1014
 #, kde-format
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "รหัสผ่านไม่เปลี่ยนแปลง เนื่องจากเกิดข้อผิดพลาดในการเข้ารหัสกระเป๋าคุมข้อมูลอีกครั้ง"
 
-#: kwalletd.cpp:945
+#: kwalletd.cpp:1019
 #, kde-format
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "ข้อมูลอาจมีการสูญหาย เนื่องจากข้อผิดพลาดในการเปิดกระเป๋าคุมข้อมูลอีกครั้ง"
 
-#: kwalletd.cpp:1525
+#: kwalletd.cpp:1608
 #, kde-format
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
@@ -650,48 +650,79 @@ msgstr ""
 msgid "What kind of encryption do you wish?"
 msgstr ""
 
-#: main.cpp:172
+#: main.cpp:173
 #, kde-format
 msgid "(C) 2002-2013, The KDE Developers"
 msgstr ""
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Valentin Rusu"
 msgstr ""
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Maintainer, GPG backend support"
 msgstr ""
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Michael Leupold"
 msgstr "Michael Leupold"
 
-#: main.cpp:174
+#: main.cpp:175
 #, fuzzy, kde-format
 #| msgid "Former maintainer"
 msgid "Former Maintainer"
 msgstr "ผู้ดูแลคนก่อน"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "George Staikos"
 msgstr "George Staikos"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "Former maintainer"
 msgstr "ผู้ดูแลคนก่อน"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "Thiago Maceira"
 msgstr "Thiago Maceira"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "D-Bus Interface"
 msgstr "ส่วนเชื่อมต่อ D-Bus"
+
+#, fuzzy
+#~| msgid "KWallet"
+#~ msgid "kwalletd"
+#~ msgstr "กระเป๋าคุมข้อมูล-K"
+
+#, fuzzy
+#~| msgid "KDE Wallet Service"
+#~ msgid "KDE Wallet Migration Agent"
+#~ msgstr "บริการกระเป๋าคุมข้อมูลของ KDE"
+
+#~ msgctxt "Text of a button to ignore the open-wallet notification"
+#~ msgid "Ignore"
+#~ msgstr "ไม่สนใจ"
+
+#~ msgid "&Open"
+#~ msgstr "เ&ปิด"
+
+#~ msgid "C&reate"
+#~ msgstr "&สร้าง"
+
+#, fuzzy
+#~| msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+#~ msgid ""
+#~ "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira, Valentin "
+#~ "Rusu"
+#~ msgstr ""
+#~ "สงวนลิขสิทธิ์ (C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+
+#~ msgid "Maintainer"
+#~ msgstr "ผู้ดูแล"

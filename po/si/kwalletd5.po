@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-26 00:40+0000\n"
+"POT-Creation-Date: 2022-12-03 00:43+0000\n"
 "PO-Revision-Date: 2009-12-19 12:46+0530\n"
 "Last-Translator: Danishka Navin <danishka@gmail.com>\n"
 "Language-Team: Sinhala <danishka@gmail.com>\n"
@@ -78,7 +78,7 @@ msgstr ""
 msgid "Retry"
 msgstr ""
 
-#: backend/backendpersisthandler.cpp:633
+#: backend/backendpersisthandler.cpp:634
 #, kde-format
 msgid ""
 "<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If "
@@ -86,12 +86,12 @@ msgid ""
 "<br><br>GPG error was <b>%2</b></qt>"
 msgstr ""
 
-#: backend/backendpersisthandler.cpp:637
+#: backend/backendpersisthandler.cpp:638
 #, kde-format
 msgid "kwalletd GPG backend"
 msgstr ""
 
-#: backend/backendpersisthandler.cpp:683
+#: backend/backendpersisthandler.cpp:684
 #, kde-format
 msgid ""
 "<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was "
@@ -99,52 +99,52 @@ msgid ""
 "system.</qt>"
 msgstr ""
 
-#: backend/kwalletbackend.cc:249
+#: backend/kwalletbackend.cc:266
 #, kde-format
 msgid "Already open."
 msgstr "දැනටමත් විවෘතයි"
 
-#: backend/kwalletbackend.cc:251
+#: backend/kwalletbackend.cc:268
 #, kde-format
 msgid "Error opening file."
 msgstr "ගොනුව විවෘත කිරීමේ දෝශයක්."
 
-#: backend/kwalletbackend.cc:253
+#: backend/kwalletbackend.cc:270
 #, kde-format
 msgid "Not a wallet file."
 msgstr "පසුම්බි ගොනුවක් නොවේ"
 
-#: backend/kwalletbackend.cc:255
+#: backend/kwalletbackend.cc:272
 #, kde-format
 msgid "Unsupported file format revision."
 msgstr "සහාය නොදක්වන ගොනු හැඩසවි පුනරීක්‍ෂනයක්."
 
-#: backend/kwalletbackend.cc:259
+#: backend/kwalletbackend.cc:276
 #, kde-format
 msgid "Unknown encryption scheme."
 msgstr "නොදන්නා ගුප්තකේතන තේමාවක්."
 
-#: backend/kwalletbackend.cc:261
+#: backend/kwalletbackend.cc:278
 #, kde-format
 msgid "Corrupt file?"
 msgstr "දූශිත ගොනුවක්?"
 
-#: backend/kwalletbackend.cc:263
+#: backend/kwalletbackend.cc:280
 #, kde-format
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr "පසුම්බියේ අන්තර්ගතය වලංගු කිරීමේ දෝශයක්. බොහෝවිට දූශිතව ඇත."
 
-#: backend/kwalletbackend.cc:267
+#: backend/kwalletbackend.cc:284
 #, kde-format
 msgid "Read error - possibly incorrect password."
 msgstr "කියවීමෙ වරදක් - බොහෝවිට වැරදි මුරපදයක්."
 
-#: backend/kwalletbackend.cc:269
+#: backend/kwalletbackend.cc:286
 #, kde-format
 msgid "Decryption error."
 msgstr "විකේතනය කිරීමේ වරදක්."
 
-#: backend/kwalletbackend.cc:445
+#: backend/kwalletbackend.cc:462
 #, kde-format
 msgid ""
 "Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
@@ -207,7 +207,7 @@ msgstr ""
 "ආකාරයකට ගබඩා වේ කරුණාකර මෙම පසුම්බියට අදාල මුරපදය ඇතුළත්  කරන්න, හෝ යෙදුමේ ඉල්ලීම ඉවත "
 "දැමීමට අවලංගු කරන්න ක්ලික් කරන්න..</qt>"
 
-#: knewwalletdialog.cpp:127 knewwalletdialog.cpp:134 kwalletwizard.cpp:151
+#: knewwalletdialog.cpp:125 knewwalletdialog.cpp:132 kwalletwizard.cpp:151
 #: kwalletwizard.cpp:157
 #, kde-format
 msgid ""
@@ -215,7 +215,7 @@ msgid ""
 "check your system's configuration then try again."
 msgstr ""
 
-#: knewwalletdialog.cpp:155
+#: knewwalletdialog.cpp:153
 #, kde-format
 msgid ""
 "Seems that your system has no keys suitable for encryption. Please set-up at "
@@ -292,7 +292,7 @@ msgstr ""
 msgid "Use GPG encryption, for better protection"
 msgstr ""
 
-#: kwalletd.cpp:570
+#: kwalletd.cpp:640
 #, kde-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
@@ -301,7 +301,7 @@ msgstr ""
 "<qt>KDE විසින් '<b>%1</b>' පසුම්බිය විවෘත කිරීමට ඉල්ලයි. කරුණාකය මෙම පසුම්භිය සඳහා මුරපදය "
 "ඇතුළත් කරන්න.</qt>"
 
-#: kwalletd.cpp:574
+#: kwalletd.cpp:644
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -311,20 +311,20 @@ msgstr ""
 "සඳහා මුරපදය ඇතුළත් කරන්න.</qt>"
 
 #. i18n( "&Open" ), "wallet-open"));
-#: kwalletd.cpp:585 kwalletd.cpp:689 kwalletd.cpp:793 kwalletd.cpp:906
-#: kwalletd.cpp:929 kwalletd.cpp:940 kwalletd.cpp:945 kwalletd.cpp:1526
-#: main.cpp:168 main.cpp:170
+#: kwalletd.cpp:655 kwalletd.cpp:763 kwalletd.cpp:867 kwalletd.cpp:980
+#: kwalletd.cpp:1003 kwalletd.cpp:1014 kwalletd.cpp:1019 kwalletd.cpp:1609
+#: main.cpp:169 main.cpp:171
 #, kde-format
 msgid "KDE Wallet Service"
 msgstr "KDE පසුම්බි සේවාව"
 
-#: kwalletd.cpp:598
+#: kwalletd.cpp:670
 #, fuzzy, kde-format
 #| msgid "<b>KDE</b> has requested to open a wallet (%1)."
 msgid "An application has requested to open a wallet (%1)."
 msgstr "<b>KDE</b> විසින් පසුම්බිය (%1) විවෘත කිරීමට ඉල්ලයි. "
 
-#: kwalletd.cpp:599
+#: kwalletd.cpp:671
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the (unnamed) application requesting a "
@@ -332,19 +332,19 @@ msgctxt ""
 msgid "Switch there"
 msgstr "එයට මාරුවන්න"
 
-#: kwalletd.cpp:601
+#: kwalletd.cpp:673
 #, kde-format
 msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr "<b>%1</b> විසින් (%2) පසුම්බිය විවෘත කිරීමට ඉල්ලයි."
 
-#: kwalletd.cpp:603
+#: kwalletd.cpp:675
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
 msgstr "%1 වෙත මාරුවන්න"
 
-#: kwalletd.cpp:617 kwalletd.cpp:699
+#: kwalletd.cpp:691 kwalletd.cpp:773
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
@@ -353,7 +353,7 @@ msgstr ""
 "<qt> '<b>%1</b>' පසුම්බිය විවෘත කිරීමේ වරදක්. කරුණාකර නැවත උත්සාහ කරන්න.<br />(වැරදි "
 "කේතය %2: %3)</qt>"
 
-#: kwalletd.cpp:665
+#: kwalletd.cpp:739
 #, kde-format
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
@@ -363,7 +363,7 @@ msgstr ""
 "KDE විසින් පසුම්බිය විවෘත කිරීමට ඉල්ලා ඇත, මෙහි සංවේදී දත්ත ආරක්‍ෂිත ආකාරයකට ගබඩා වේ කරුණාකර "
 "මෙම පසුම්බියට අදාල මුරපදය ඇතුළත් කරන්න, හෝ යෙදුමේ ඉල්ලීම ඉවත දැමීමට අවලංගු කරන්න ක්ලික් කරන්න."
 
-#: kwalletd.cpp:670
+#: kwalletd.cpp:744
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -375,7 +375,7 @@ msgstr ""
 "ආකාරයකට ගබඩා වේ කරුණාකර මෙම පසුම්බියට අදාල මුරපදය ඇතුළත්  කරන්න, හෝ යෙදුමේ ඉල්ලීම ඉවත "
 "දැමීමට අවලංගු කරන්න ක්ලික් කරන්න..</qt>"
 
-#: kwalletd.cpp:678
+#: kwalletd.cpp:752
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -385,7 +385,7 @@ msgstr ""
 "<qt>KDE විසින් '<b>%1</b>' නමැති නව පසුම්බියක් නිර්මාණය කිරීමට ඉල්ලයි. කරුණාකර එම පසුම්බිය "
 "සඳහා මුරපදයක් ඇතුළත් කරන්න හෝ, අවලංගු කරන්න ක්ලික් කර යෙදුමේ ඉල්ලීම ඉවත දමන්න.</qt>"
 
-#: kwalletd.cpp:683
+#: kwalletd.cpp:757
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -396,12 +396,12 @@ msgstr ""
 "එම පසුම්බිය සඳහා මුරපදයක් ඇතුළත් කරන්න හෝ, අවලංගු කරන්න ක්ලික් කර යෙදුමේ ඉල්ලීම ඉවත දමන්න.</"
 "qt>"
 
-#: kwalletd.cpp:795
+#: kwalletd.cpp:869
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE විසින් විවෘත '<b>%1</b>' පසුම්බියට ඇතුළුවීමට අවසර පතයි.</qt>"
 
-#: kwalletd.cpp:797
+#: kwalletd.cpp:871
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
@@ -409,14 +409,14 @@ msgid ""
 msgstr ""
 "<qt> '<b>%1</b>' යෙදුම විසින් විවෘත '<b>%2</b>' පසුම්බියට ඇතුළුවීමට අවසර පතයි.</qt>"
 
-#: kwalletd.cpp:905
+#: kwalletd.cpp:979
 #, kde-format
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
 msgstr "පදුම්බිය විවෘත කිරීමේ වරදක්. මුරපදය වෙනස් කිරීමට පසුම්බිය නිසිපරිදි විවෘත විය යුතුයි."
 
-#: kwalletd.cpp:921
+#: kwalletd.cpp:995
 #, kde-format
 msgid ""
 "<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use "
@@ -424,22 +424,22 @@ msgid ""
 "associated to that key.</qt>"
 msgstr ""
 
-#: kwalletd.cpp:928
+#: kwalletd.cpp:1002
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>කරුණාකර '<b>%1</b>' පසුම්බිය සඳහා නම මුරපදයක් ඇතුළත් කරන්න.</qt>"
 
-#: kwalletd.cpp:940
+#: kwalletd.cpp:1014
 #, kde-format
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "පසුම්බිය නැවත-ගුප්තකේතනය කිරීමේ වරදක්, මුරපදය වෙනස් නොවිනි."
 
-#: kwalletd.cpp:945
+#: kwalletd.cpp:1019
 #, kde-format
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "පසුම්බිය නැවත විවෘත කිරීමේ වරදක්, දත්ත නැති විය හැක"
 
-#: kwalletd.cpp:1525
+#: kwalletd.cpp:1608
 #, kde-format
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
@@ -643,48 +643,78 @@ msgstr ""
 msgid "What kind of encryption do you wish?"
 msgstr ""
 
-#: main.cpp:172
+#: main.cpp:173
 #, kde-format
 msgid "(C) 2002-2013, The KDE Developers"
 msgstr ""
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Valentin Rusu"
 msgstr ""
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Maintainer, GPG backend support"
 msgstr ""
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Michael Leupold"
 msgstr "Michael Leupold"
 
-#: main.cpp:174
+#: main.cpp:175
 #, fuzzy, kde-format
 #| msgid "Former maintainer"
 msgid "Former Maintainer"
 msgstr "හිටපු සංවර්ධක"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "George Staikos"
 msgstr "George Staikos"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "Former maintainer"
 msgstr "හිටපු සංවර්ධක"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "Thiago Maceira"
 msgstr "Thiago Maceira"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "D-Bus Interface"
 msgstr "D-Bus අතුරුමුහුණත"
+
+#, fuzzy
+#~| msgid "KWallet"
+#~ msgid "kwalletd"
+#~ msgstr "KWallet"
+
+#, fuzzy
+#~| msgid "KDE Wallet Service"
+#~ msgid "KDE Wallet Migration Agent"
+#~ msgstr "KDE පසුම්බි සේවාව"
+
+#~ msgctxt "Text of a button to ignore the open-wallet notification"
+#~ msgid "Ignore"
+#~ msgstr "මඟ හරින්න"
+
+#~ msgid "&Open"
+#~ msgstr "විවෘත කරන්න (&O)"
+
+#~ msgid "C&reate"
+#~ msgstr "නිර්මාණය කරන්න (&r)"
+
+#, fuzzy
+#~| msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+#~ msgid ""
+#~ "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira, Valentin "
+#~ "Rusu"
+#~ msgstr "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+
+#~ msgid "Maintainer"
+#~ msgstr "පරිපාලක"

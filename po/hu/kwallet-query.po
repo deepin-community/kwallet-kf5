@@ -131,3 +131,6 @@ msgstr "Nem sikerült olvasni a(z) %1 bejegyzés értékét a(z) %2 jelszótáro
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Nem sikerült írni a(z) %1 bejegyzés értékét a(z) %2 jelszótárolóba"
+
+#~ msgid "wallet"
+#~ msgstr "jelszótároló"

@@ -130,3 +130,9 @@ msgstr "Kunne ikke læse værdien for indgangen %1 fra tegnebogen %2"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Kunne ikke skrive værdien for indgangen %1 til tegnebogen %2"
+
+#~ msgid "wallet"
+#~ msgstr "tegnebog"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"

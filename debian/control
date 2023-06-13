@@ -7,27 +7,29 @@ Uploaders: Aurélien COUDERC <coucouf@debian.org>,
 Build-Depends: cmake (>= 3.16~),
                debhelper-compat (= 13),
                doxygen,
-               extra-cmake-modules (>= 5.90.0~),
+               extra-cmake-modules (>= 5.103.0~),
                libgcrypt20-dev (>= 1.5.0~),
                libgpgme-dev | libgpgme11-dev,
                libgpgmepp-dev (>= 1.7.0~) | libgpgmepp6-dev,
                libgpgmepp-dev (>= 1.7.0~) | libqgpgme7-dev,
-               libkf5config-dev (>= 5.90.0~),
-               libkf5configwidgets-dev (>= 5.90.0~),
-               libkf5coreaddons-dev (>= 5.90.0~),
-               libkf5dbusaddons-dev (>= 5.90.0~),
-               libkf5doctools-dev (>= 5.90.0~),
-               libkf5i18n-dev (>= 5.90.0~),
-               libkf5notifications-dev (>= 5.90.0~),
-               libkf5service-dev (>= 5.90.0~),
-               libkf5widgetsaddons-dev (>= 5.90.0~),
-               libkf5windowsystem-dev (>= 5.90.0~),
+               libkf5config-dev (>= 5.103.0~),
+               libkf5configwidgets-dev (>= 5.103.0~),
+               libkf5coreaddons-dev (>= 5.103.0~),
+               libkf5dbusaddons-dev (>= 5.103.0~),
+               libkf5doctools-dev (>= 5.103.0~),
+               libkf5i18n-dev (>= 5.103.0~),
+               libkf5notifications-dev (>= 5.103.0~),
+               libkf5service-dev (>= 5.103.0~),
+               libkf5widgetsaddons-dev (>= 5.103.0~),
+               libkf5windowsystem-dev (>= 5.103.0~),
+               libqca-qt5-2-dev (>= 2.3.1~),
+               libqca-qt5-2-plugins <!nocheck>,
                libqt5sql5-sqlite,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.15.2~),
                qttools5-dev,
                qttools5-dev-tools,
-Standards-Version: 4.6.0
+Standards-Version: 4.6.2
 Homepage: https://invent.kde.org/frameworks/kwallet
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kwallet
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kwallet.git
@@ -42,7 +44,7 @@ Breaks: kio (<< 5.54),
         libkf5khtml5 (<< 5.54),
         libkf5wallet5 (<< 4.100.0),
         libkf5webkit5 (<< 5.54),
-Replaces: libkf5wallet5 (<< 4.100.0)
+Replaces: libkf5wallet5 (<< 4.100.0),
 Description: Secure and unified container for user passwords.
  Runtime for interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
@@ -52,9 +54,9 @@ Description: Secure and unified container for user passwords.
 Package: libkf5wallet-data
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}
-Breaks: libkf5wallet-bin (<< 5.41), libkf5wallet5 (<< 5.10)
-Replaces: libkf5wallet-bin (<< 5.41), libkf5wallet5 (<< 5.10)
+Depends: ${misc:Depends},
+Breaks: libkf5wallet-bin (<< 5.41), libkf5wallet5 (<< 5.10),
+Replaces: libkf5wallet-bin (<< 5.41), libkf5wallet5 (<< 5.10),
 Description: Secure and unified container for user passwords.
  Interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
@@ -65,24 +67,24 @@ Package: libkf5wallet-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5config-dev (>= 5.90.0~),
+Depends: libkf5config-dev (>= 5.103.0~),
          libkf5wallet5 (= ${binary:Version}),
-         libkf5windowsystem-dev (>= 5.90.0~),
+         libkf5windowsystem-dev (>= 5.103.0~),
          libkwalletbackend5-5 (= ${binary:Version}),
          qtbase5-dev (>= 5.15.2~),
          ${misc:Depends},
-Recommends: libkf5wallet-doc (= ${source:Version})
+Recommends: libkf5wallet-doc (= ${source:Version}),
 Description: development files for kwallet-framework
  Interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
  .
  Contains development files for kwallet-framework.
-Breaks: libkf5kdelibs4support-dev (<< 5.54), libkf5khtml-dev (<< 5.54)
+Breaks: libkf5kdelibs4support-dev (<< 5.54), libkf5khtml-dev (<< 5.54),
 
 Package: libkf5wallet-doc
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
 Description: Secure and unified container for user passwords.
  Interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
@@ -100,11 +102,11 @@ Multi-Arch: same
 Description: Secure and unified container for user passwords.
  Interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
-Breaks: kio (<< 5.54), libkf5khtml5 (<< 5.54), libkf5webkit5 (<< 5.54)
+Breaks: kio (<< 5.54), libkf5khtml5 (<< 5.54), libkf5webkit5 (<< 5.54),
 
 Package: libkwalletbackend5-5
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends},
 Multi-Arch: same
 Description: Secure and unified container for user passwords.
  Backend to KWallet, the safe desktop-wide storage
