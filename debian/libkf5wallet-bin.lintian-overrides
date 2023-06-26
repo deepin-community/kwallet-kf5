@@ -1,1 +1,1 @@
-libkf5wallet-bin: binary-without-manpage usr/bin/kwalletd5
+libkf5wallet-bin: no-manual-page [usr/bin/kwalletd5]

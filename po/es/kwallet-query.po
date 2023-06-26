@@ -133,3 +133,12 @@ msgstr "Ha fallado la lectura del valor de la entrada %1 en la cartera %2"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Ha fallado la escritura del valor de la entrada %1 en la cartera %2"
+
+#~ msgid "wallet"
+#~ msgstr "cartera"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"
+
+#~ msgid "'Passwords' folder not found"
+#~ msgstr "No se ha encontrado la carpeta «Passwords»"

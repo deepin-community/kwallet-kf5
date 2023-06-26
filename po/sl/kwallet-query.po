@@ -132,3 +132,9 @@ msgstr "Ni bilo mogoče prebrati vrednosti vnosa %1 iz listnice %2"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Ni bilo mogoče zapisati vrednosti vnosa %1 v listnico %2"
+
+#~ msgid "wallet"
+#~ msgstr "listnica"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"

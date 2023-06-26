@@ -133,3 +133,13 @@ msgstr "Lezen van waarde van item %1 uit portefeuille %2 is mislukt"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Schrijven van waarde van item %1 uit portefeuille %2 is mislukt"
+
+#~ msgid "wallet"
+#~ msgstr "portefeuille"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"
+
+#~| msgid "The folder %1 do not exist!"
+#~ msgid "The folder %1 doeos not exist!"
+#~ msgstr "De map %1 bestaat niet!"

@@ -132,3 +132,9 @@ msgstr "Tietueen %1 arvon luku lompakosta %2 epäonnistui"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Tietueen %1 arvon kirjoitus lompakkoon %2 epäonnistui"
+
+#~ msgid "wallet"
+#~ msgstr "lompakko"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"

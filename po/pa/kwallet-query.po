@@ -128,3 +128,6 @@ msgstr ""
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr ""
+
+#~ msgid "wallet"
+#~ msgstr "ਵਾਲਿਟ"

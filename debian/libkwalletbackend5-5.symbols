@@ -30,12 +30,16 @@ libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  _ZN7KWallet7Backend12createFolderERK7QString@Base 4.96.0
  (subst)_ZN7KWallet7Backend12openInternalE{quintptr}@Base 4.96.0
  _ZN7KWallet7Backend12removeFolderERK7QString@Base 4.96.0
+ _ZN7KWallet7Backend12renameWalletERK7QStringb@Base 5.97.0
+ _ZN7KWallet7Backend13closeInternalEb@Base 5.97.0
  _ZN7KWallet7Backend13openPreHashedERK10QByteArray@Base 4.96.0
  _ZN7KWallet7Backend13readEntryListERK7QString@Base 4.96.0
  _ZN7KWallet7Backend13setCipherTypeENS_17BackendCipherTypeE@Base 4.96.0
  _ZN7KWallet7Backend13swapToNewHashEv@Base 4.98.0
  _ZN7KWallet7Backend14openRCToStringEi@Base 4.96.0
  _ZN7KWallet7Backend15getSaveLocationEv@Base 4.96.0
+ _ZN7KWallet7Backend16decodeWalletNameERK7QString@Base 5.97.0
+ _ZN7KWallet7Backend16encodeWalletNameERK7QString@Base 5.97.0
  (subst)_ZN7KWallet7Backend4openERK10QByteArray{quintptr}@Base 4.96.0
  _ZN7KWallet7Backend4openERKN5GpgME3KeyE@Base 5.13.0
  (subst)_ZN7KWallet7Backend4syncE{quintptr}@Base 4.96.0

@@ -137,3 +137,12 @@ msgstr "Impossible de lire la valeur de l'entrée %1 du portefeuille %2"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Impossible d'écrire la valeur de l'entrée %1 dans le portefeuille %2"
+
+#~ msgid "wallet"
+#~ msgstr "portefeuille"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"
+
+#~ msgid "'Passwords' folder not found"
+#~ msgstr "Impossible de trouver le dossier « Passwords »"

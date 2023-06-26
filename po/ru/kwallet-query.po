@@ -136,3 +136,9 @@ msgstr "Не удалось прочитать значение записи %1 
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Не удалось записать новое значение для записи %1 в бумажник %2."
+
+#~ msgid "wallet"
+#~ msgstr "бумажник"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"

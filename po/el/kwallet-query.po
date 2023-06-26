@@ -132,3 +132,6 @@ msgstr "Αποτυχία ανάγνωσης της τιμής της εγγρα�
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Αποτυχία καταχώρησης της τιμής της εγγραφής %1 στο %2 πορτοφόλι"
+
+#~ msgid "wallet"
+#~ msgstr "πορτοφόλι"

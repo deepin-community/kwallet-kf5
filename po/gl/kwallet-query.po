@@ -133,3 +133,12 @@ msgstr "Non se puido ler a entrada %1 na carteira %2."
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Non se puido escribir a entrada %1 na carteira %2."
+
+#~ msgid "wallet"
+#~ msgstr "carteira"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"
+
+#~ msgid "'Passwords' folder not found"
+#~ msgstr "Non se atopou o cartafol de contrasinais."

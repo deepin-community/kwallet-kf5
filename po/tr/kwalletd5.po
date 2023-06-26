@@ -4,30 +4,31 @@
 # Serdar Soytetir <tulliana@gmail.com>, 2008, 2009, 2013.
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2014, 2015, 2017.
 # Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
+# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-26 00:40+0000\n"
-"PO-Revision-Date: 2017-04-12 16:28+0100\n"
-"Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
+"POT-Creation-Date: 2022-12-03 00:43+0000\n"
+"PO-Revision-Date: 2023-01-21 15:32+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 22.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Serdar Soytetir, Volkan Gezer"
+msgstr "Serdar Soytetir, Volkan Gezer, Emir SARI"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "tulliana@gmail.com, volkangezer@gmail.com"
+msgstr "tulliana@gmail.com, volkangezer@gmail.com, emir_sari@icloud.com"
 
 #: backend/backendpersisthandler.cpp:489
 #, kde-format
@@ -96,7 +97,7 @@ msgstr ""
 msgid "Retry"
 msgstr "Yeniden Dene"
 
-#: backend/backendpersisthandler.cpp:633
+#: backend/backendpersisthandler.cpp:634
 #, kde-format
 msgid ""
 "<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If "
@@ -107,12 +108,12 @@ msgstr ""
 "Eğer bir Akıllı Kart kullanıyorsanız, takılı olduğundan emin olun ve yeniden "
 "deneyin.<br><br>GPG hatası şuydu: <b>%2</b></qt>"
 
-#: backend/backendpersisthandler.cpp:637
+#: backend/backendpersisthandler.cpp:638
 #, kde-format
 msgid "kwalletd GPG backend"
 msgstr "kwalletd GPG arka ucu"
 
-#: backend/backendpersisthandler.cpp:683
+#: backend/backendpersisthandler.cpp:684
 #, kde-format
 msgid ""
 "<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was "
@@ -122,52 +123,52 @@ msgstr ""
 "<qt><b>%1</b> cüzdanı açılırken bir hata oluştu. Cüzdan GPG Anahtar Kimliği "
 "<b>%2</b> ile şifrelenmiş ancak bu anahtar sistemde bulunamadı.</qt>"
 
-#: backend/kwalletbackend.cc:249
+#: backend/kwalletbackend.cc:266
 #, kde-format
 msgid "Already open."
 msgstr "Zaten açık."
 
-#: backend/kwalletbackend.cc:251
+#: backend/kwalletbackend.cc:268
 #, kde-format
 msgid "Error opening file."
 msgstr "Dosya açılırken hata oluştu."
 
-#: backend/kwalletbackend.cc:253
+#: backend/kwalletbackend.cc:270
 #, kde-format
 msgid "Not a wallet file."
 msgstr "Bu bir cüzdan dosyası değil."
 
-#: backend/kwalletbackend.cc:255
+#: backend/kwalletbackend.cc:272
 #, kde-format
 msgid "Unsupported file format revision."
 msgstr "Desteklenmeyen dosya biçimi sürümü."
 
-#: backend/kwalletbackend.cc:259
+#: backend/kwalletbackend.cc:276
 #, kde-format
 msgid "Unknown encryption scheme."
 msgstr "Bilinmeyen şifreleme yapısı."
 
-#: backend/kwalletbackend.cc:261
+#: backend/kwalletbackend.cc:278
 #, kde-format
 msgid "Corrupt file?"
 msgstr "Dosya bozuk mu?"
 
-#: backend/kwalletbackend.cc:263
+#: backend/kwalletbackend.cc:280
 #, kde-format
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr "Cüzdan bütünlüğü doğrulanamadı. Olasılıkla cüzdan bozulmuş."
 
-#: backend/kwalletbackend.cc:267
+#: backend/kwalletbackend.cc:284
 #, kde-format
 msgid "Read error - possibly incorrect password."
 msgstr "Okuma hatası - büyük olasılıkla parola hatalı."
 
-#: backend/kwalletbackend.cc:269
+#: backend/kwalletbackend.cc:286
 #, kde-format
 msgid "Decryption error."
 msgstr "Şifreleme açma hatası."
 
-#: backend/kwalletbackend.cc:445
+#: backend/kwalletbackend.cc:462
 #, kde-format
 msgid ""
 "Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
@@ -213,7 +214,7 @@ msgstr ""
 "<qt>KDE, '<b>%1</b>' adında bir cüzdanın açılması talebinde bulundu. Bu "
 "işlem, gizli verilerin güvenli bir şekilde depolanmasına imkan tanır. Lütfen "
 "bu cüzdan için kullanacağınız parolayı girin ya da uygulamanın talebini geri "
-"çevirmek içiniptal düğmesine tıklayın.</qt>"
+"çevirmek için İptal düğmesine tıklayın.</qt>"
 
 #: knewwalletdialog.cpp:55
 #, kde-format
@@ -226,19 +227,19 @@ msgstr ""
 "<qt>'<b>%1</b>' uygulaması '<b>%2</b>' adında yeni bir cüzdan oluşturmak "
 "istiyor. Bu işlem hassas verilerin güvenli bir şekilde depolanmasını sağlar. "
 "Lütfen bu yeni cüzdan için bir tür seçin veya uygulamanın isteğini geri "
-"çevirmek için iptal düğmesine tıklayın.</qt>"
+"çevirmek için İptal düğmesine tıklayın.</qt>"
 
-#: knewwalletdialog.cpp:127 knewwalletdialog.cpp:134 kwalletwizard.cpp:151
+#: knewwalletdialog.cpp:125 knewwalletdialog.cpp:132 kwalletwizard.cpp:151
 #: kwalletwizard.cpp:157
 #, kde-format
 msgid ""
 "The GpgME library failed to initialize for the OpenPGP protocol. Please "
 "check your system's configuration then try again."
 msgstr ""
-"GpgME kütüphanesi OpenPGP protokolünü başlatırken başarısız oldu. Lütfen "
+"GpgME kitaplığı, OpenPGP protokolünü başlatırken başarısız oldu. Lütfen "
 "sistem yapılandırmanızı onarın ve yeniden deneyin!"
 
-#: knewwalletdialog.cpp:155
+#: knewwalletdialog.cpp:153
 #, kde-format
 msgid ""
 "Seems that your system has no keys suitable for encryption. Please set-up at "
@@ -255,23 +256,20 @@ msgstr "Lütfen aşağıdaki listeden imzalama anahtarı seçin:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: knewwalletdialoggpg.ui:24
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><head/><body><p><span style=\" font-weight:600;\">NOTE:</span> this "
-#| "list shows only \"ultimate-level\" trusted keys</p></body></html>"
+#, kde-format
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">NOTE:</span> this "
 "list shows only &quot;ultimate-level&quot; trusted keys</p></body></html>"
 msgstr ""
 "<html><head/><body><p><span style=\" font-weight:600;\">NOT:</span> Bu liste "
-"sadece \"üst seviyede\" güvenilen anahtarlar gösterilmektedir</p></body></"
-"html>"
+"yalnızca &quot;en üst düzeyde&quot; güvenilen anahtarları gösterir</p></"
+"body></html>"
 
 #. i18n: ectx: property (text), widget (QTableWidget, listCertificates)
 #: knewwalletdialoggpg.ui:59
 #, kde-format
 msgid "Name"
-msgstr "İsim"
+msgstr "Ad"
 
 #. i18n: ectx: property (text), widget (QTableWidget, listCertificates)
 #: knewwalletdialoggpg.ui:64
@@ -303,7 +301,7 @@ msgstr ""
 "<html><head/><body><p>'<span style=\" font-weight:600;\">%1</span>' "
 "uygulaması KDE cüzdan uygulamasının açılmasını istiyor. Bu işlem hassas "
 "verilerin güvenli bir şekilde depolanmasını sağlar. Lütfen bu yeni cüzdan "
-"için bir tür seçin veya uygulamanın isteğini geri çevirmek için iptal "
+"için bir tür seçin veya uygulamanın isteğini geri çevirmek için İptal "
 "düğmesine tıklayın.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioBlowfish)
@@ -320,16 +318,16 @@ msgstr "Klasik, blowfish ile şifrelenmiş dosya"
 msgid "Use GPG encryption, for better protection"
 msgstr "Daha iyi koruma için GPG şifrelemesi kullan"
 
-#: kwalletd.cpp:570
+#: kwalletd.cpp:640
 #, kde-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
 "password for this wallet below.</qt>"
 msgstr ""
-"<qt>KDE '<b>%1</b>' cüzdanını açmak istiyor. Lütfen bu cüzdan için gerekli "
+"<qt>KDE, '<b>%1</b>' cüzdanını açmak istiyor. Lütfen bu cüzdan için gerekli "
 "parolayı aşağıdaki kutucuğa girin.</qt>"
 
-#: kwalletd.cpp:574
+#: kwalletd.cpp:644
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -339,19 +337,19 @@ msgstr ""
 "bu cüzdan için gerekli parolayı aşağıdaki kutucuğa girin.</qt>"
 
 #. i18n( "&Open" ), "wallet-open"));
-#: kwalletd.cpp:585 kwalletd.cpp:689 kwalletd.cpp:793 kwalletd.cpp:906
-#: kwalletd.cpp:929 kwalletd.cpp:940 kwalletd.cpp:945 kwalletd.cpp:1526
-#: main.cpp:168 main.cpp:170
+#: kwalletd.cpp:655 kwalletd.cpp:763 kwalletd.cpp:867 kwalletd.cpp:980
+#: kwalletd.cpp:1003 kwalletd.cpp:1014 kwalletd.cpp:1019 kwalletd.cpp:1609
+#: main.cpp:169 main.cpp:171
 #, kde-format
 msgid "KDE Wallet Service"
 msgstr "KDE Cüzdan Servisi"
 
-#: kwalletd.cpp:598
+#: kwalletd.cpp:670
 #, kde-format
 msgid "An application has requested to open a wallet (%1)."
 msgstr "Bir uygulama bir cüzdana (%1) erişim isteğinde isteğinde bulundu."
 
-#: kwalletd.cpp:599
+#: kwalletd.cpp:671
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the (unnamed) application requesting a "
@@ -359,19 +357,19 @@ msgctxt ""
 msgid "Switch there"
 msgstr "Oraya geç"
 
-#: kwalletd.cpp:601
+#: kwalletd.cpp:673
 #, kde-format
 msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr "<b>%1</b> uygulaması bu cüzdana erişerek açma isteğinde bulundu (%2)."
 
-#: kwalletd.cpp:603
+#: kwalletd.cpp:675
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
 msgstr "%1 uygulamasına geç"
 
-#: kwalletd.cpp:617 kwalletd.cpp:699
+#: kwalletd.cpp:691 kwalletd.cpp:773
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
@@ -380,7 +378,7 @@ msgstr ""
 "<qt>'<b>%1</b>' cüzdanı açılırken bir hata oluştu. Lütfen yeniden deneyin. "
 "<br />(Hata kodu %2: %3)</qt>"
 
-#: kwalletd.cpp:665
+#: kwalletd.cpp:739
 #, kde-format
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
@@ -389,10 +387,10 @@ msgid ""
 msgstr ""
 "KDE, bir cüzdanın açılması talebinde bulundu. Bu işlem, gizli verilerin "
 "güvenli bir şekilde depolanmasına imkan tanır. Lütfen bu cüzdan için "
-"kullanacağınız parolayı girin ya da uygulamanın talebini geri çevirmek "
-"içiniptal düğmesine tıklayın."
+"kullanacağınız parolayı girin ya da uygulamanın talebini geri çevirmek için "
+"İptal düğmesine tıklayın."
 
-#: kwalletd.cpp:670
+#: kwalletd.cpp:744
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -403,36 +401,36 @@ msgstr ""
 "<qt>'<b>%1</b>' uygulaması KDE cüzdan uygulamasının açılmasını istiyor. Bu "
 "işlem hassas verilerin güvenli bir şekilde depolanmasını sağlar. Lütfen bu "
 "cüzdan için kullanacağınız parolayı girin veya uygulamanın isteğini geri "
-"çevirmek için iptal düğmesine tıklayın.</qt>"
+"çevirmek için İptal düğmesine tıklayın.</qt>"
 
-#: kwalletd.cpp:678
+#: kwalletd.cpp:752
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
 "choose a password for this wallet, or cancel to deny the application's "
 "request.</qt>"
 msgstr ""
-"<qt>KDE '<b>%1</b>' isimli bir cüzdanın açılmasını istiyor. Lütfen bu cüzdan "
-"için bir parola seçin, ya da uygulamanın isteğini geri çevirmek için iptal "
-"düğmesine tıklayın.</qt>"
+"<qt>KDE, '<b>%1</b>' adlı bir cüzdanın oluşturulmasını istiyor. Lütfen bu "
+"cüzdan için bir parola seçin veya uygulamanın isteğini geri çevirmek için "
+"İptal düğmesine tıklayın.</qt>"
 
-#: kwalletd.cpp:683
+#: kwalletd.cpp:757
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
 "'<b>%2</b>'. Please choose a password for this wallet, or cancel to deny the "
 "application's request.</qt>"
 msgstr ""
-"<qt>'<b>%1</b>' uygulaması, '<b>%2</b>' isimli bir cüzdan oluşturmak istiyor."
-"talebinde bulundu. Lütfen bu cüzdan için bir parola seçin, ya da uygulamanın "
-"isteğini geri çevirmek için iptal düğmesine tıklayın.</qt>"
+"<qt>'<b>%1</b>' uygulaması, '<b>%2</b>' adlı bir cüzdan oluşturmak istiyor. "
+"Lütfen bu cüzdan için bir parola seçin veya uygulamanın isteğini geri "
+"çevirmek için İptal düğmesine tıklayın.</qt>"
 
-#: kwalletd.cpp:795
+#: kwalletd.cpp:869
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE '<b>%1</b>' cüzdanına erişerek açma isteğinde bulundu.</qt>"
 
-#: kwalletd.cpp:797
+#: kwalletd.cpp:871
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
@@ -441,7 +439,7 @@ msgstr ""
 "<qt>'<b>%1</b>' uygulaması '<b>%2</b>' cüzdanına erişerek açma isteğinde "
 "bulundu.</qt>"
 
-#: kwalletd.cpp:905
+#: kwalletd.cpp:979
 #, kde-format
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
@@ -450,7 +448,7 @@ msgstr ""
 "Cüzdan açılamadı. Parolanın değiştirilebilmesi için önce cüzdanın açılması "
 "gereklidir."
 
-#: kwalletd.cpp:921
+#: kwalletd.cpp:995
 #, kde-format
 msgid ""
 "<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use "
@@ -461,23 +459,23 @@ msgstr ""
 "Lütfen bu anahtarla ilişkili parolayı değiştirmek için <b>GPG</b> araçları "
 "kullanın (<b>kleopatra</b> benzeri).</qt>"
 
-#: kwalletd.cpp:928
+#: kwalletd.cpp:1002
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>Lütfen '<b>%1</b>' cüzdanı için yeni bir parola seçin.</qt>"
 
-#: kwalletd.cpp:940
+#: kwalletd.cpp:1014
 #, kde-format
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr ""
 "Cüzdanın yeniden şifrelenmesi sırasında hata oluştu. Parola değiştirilmedi."
 
-#: kwalletd.cpp:945
+#: kwalletd.cpp:1019
 #, kde-format
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "Cüzdanın yeniden açılması sırasında hata oluştu. Veri kaybı olabilir."
 
-#: kwalletd.cpp:1525
+#: kwalletd.cpp:1608
 #, kde-format
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
@@ -489,12 +487,12 @@ msgstr ""
 #: kwalletwizard.cpp:40
 #, kde-format
 msgid "KWallet"
-msgstr "KWallet"
+msgstr "K Cüzdan"
 
 #: kwalletwizard.cpp:272
 #, kde-format
 msgid "<qt>Password is empty.  <b>(WARNING: Insecure)</b></qt>"
-msgstr "<qt>Parola boş.  <b>(UYARI: Güvensiz)</b></qt>"
+msgstr "<qt>Parola boş. <b>(UYARI: Güvensiz)</b></qt>"
 
 #: kwalletwizard.cpp:274
 #, kde-format
@@ -519,9 +517,9 @@ msgid ""
 "your wallets. It even permits you to drag wallets and wallet contents, "
 "allowing you to easily copy a wallet to a remote system.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>KDE Cüzdanı sistemi, verilerinizi yerel sabit "
+"<html><head/><body><p>KDE Cüzdan sistemi, verilerinizi yerel sabit "
 "diskinizdeki <span style=\" font-style:italic;\">cüzdanlarda</span> tutar. "
-"Veriler sadece seçtiğiniz şifrelenmiş bir şekilde, blowfish algoritmasında "
+"Veriler yalnızca seçtiğiniz şifrelenmiş bir şekilde, blowfish algoritmasında "
 "parolanız anahtar olarak kullanılarak veya GPG şifreleme anahtarı "
 "kullanılarak depolanır. Bir cüzdan açıldığı zaman cüzdan yöneticisi sistem "
 "panelinde bir simge görüntüler. Bu uygulamayı, cüzdanlarınıza erişmek için "
@@ -531,15 +529,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kwalletwizardpagegpgkey.ui:24
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html><head/><body><p>The GPG-based wallet use a GPG encryption key to "
-#| "securely encrypt data on disk. The key must be available when decrypting "
-#| "is needed or your wallet will not be accessible. For example, if you "
-#| "choose a SmartCard-based encryption key, the GPG system will prompt you "
-#| "to enter it and its associated PIN when attempting to open the wallet. "
-#| "<span style=\" font-weight:600;\">NOTE:</span> this list contains only "
-#| "\"ultimate-level\" trusted keys.</p></body></html>"
+#, kde-format
 msgid ""
 "<html><head/><body><p>The GPG-based wallet use a GPG encryption key to "
 "securely encrypt data on disk. The key must be available when decrypting is "
@@ -552,11 +542,11 @@ msgstr ""
 "<html><head/><body><p>GPG tabanlı cüzdan, veriyi güvenle şifreleyebilmek "
 "için bi GPG şifreleme anahtarı kullanır. Anahtar, şifre çözme işlemi "
 "gerektiğinde veya cüzdanınız erişilemez olduğunda kullanılabilir olmalıdır. "
-"Örneğin bir Akıllı Kart tabanlı şifreleme anahtarı seçerseniz, GPG sistemi "
+"Örneğin bir Akıllı Kart tabanlı şifreleme anahtarı seçerseniz GPG sistemi "
 "cüzdanı açmaya çalışırken size bunu ve ilişkili PIN numarasını girmenizi "
 "isteyecektir. <span style=\" font-weight:600;\">NOT:</span> Bu listede "
-"sadece \"üst seviyede\" güvenilen anahtarlar gösterilmektedir.</p></body></"
-"html>"
+"yalnızca &quot;en üst düzeyde&quot; güvenilen anahtarlar gösterilmektedir.</"
+"p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kwalletwizardpagegpgkey.ui:42
@@ -592,10 +582,10 @@ msgid ""
 "preventing others from viewing the information.  This wizard will tell you "
 "about KWallet and help you configure it for the first time."
 msgstr ""
-"KDE Cüzdan Sistemine hoş geldiniz. KWallet, hassas ve güvenli olması gereken "
-"tüm bilgilerinizin disk üzerinde şifrelenmiş bir şekilde tutulmasına olanak "
-"verir. Bu süre içinde başkası, size ait bu bilgilere erişemez. Bu sihirbaz "
-"KWallet hakkında bilgi verecek ve sizin için yapılandıracaktır."
+"KDE Cüzdan Sistemine hoş geldiniz. K Cüzdan, hassas ve güvenli olması "
+"gereken tüm bilgilerinizin disk üzerinde şifrelenmiş bir şekilde tutulmasına "
+"olanak verir. Bu süre içinde başkası, size ait bu bilgilere erişemez. Bu "
+"sihirbaz K Cüzdan hakkında bilgi verecek ve sizin için yapılandıracaktır."
 
 #. i18n: ectx: property (text), widget (QRadioButton, _basic)
 #: kwalletwizardpageintro.ui:69
@@ -619,11 +609,11 @@ msgid ""
 "change some of them.  You may further tune these settings from the KWallet "
 "control module."
 msgstr ""
-"KDE Cüzdan sistemi, kişisel verilerinizin güvenlik seviyesini kontrol "
-"etmenizi de sağlar. Bu ayarlardan bazıları sistemin kullanışlığına etki "
-"edebilir. Öntanımlı ayarlar pek çok kullanıcı için kabul edilebilir bir "
-"ortam sağlar. Tüm bu ayarları istendiği anda KWallet kontrol modülünden "
-"değiştirmek mümkündür."
+"KDE Cüzdan sistemi, kişisel verilerinizin güvenlik düzeyini kontrol etmenizi "
+"de sağlar. Bu ayarlardan bazıları sistemin kullanışlığına etki edebilir. "
+"Öntanımlı ayarlar pek çok kullanıcı için kabul edilebilir bir ortam sağlar. "
+"Tüm bu ayarları istendiği anda KWallet kontrol modülünden değiştirmek "
+"mümkündür."
 
 #. i18n: ectx: property (text), widget (QCheckBox, _closeIdle)
 #: kwalletwizardpageoptions.ui:48
@@ -649,7 +639,7 @@ msgid ""
 "in the wallet."
 msgstr ""
 "Çeşitli uygulamalar, parolalarını ya da örneğin web formu verileri ya da "
-"kurabiyeler gibi bilgilerini saklamak için KDE Cüzdan'ı kullanmaya teşebbüs "
+"çerezler gibi bilgilerini saklamak için KDE Cüzdan'ı kullanmaya teşebbüs "
 "edebilir. Eğer bu uygulamaların cüzdanı kullanmasını istiyorsanız, cüzdanı "
 "etkinleştirmeli ve bir parola belirlemelisiniz. Bu parola kaybedildiğinde "
 "<i>kurtarılabilir değildir</i>, parolayı bilen herkes cüzdan içerisinde "
@@ -705,47 +695,47 @@ msgstr ""
 msgid "What kind of encryption do you wish?"
 msgstr "Ne tür bir şifreleme istiyorsunuz?"
 
-#: main.cpp:172
+#: main.cpp:173
 #, kde-format
 msgid "(C) 2002-2013, The KDE Developers"
 msgstr "(C) 2002-2013, KDE Geliştiricileri"
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Valentin Rusu"
 msgstr "Valentin Rusu"
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Maintainer, GPG backend support"
 msgstr "Projeyi yürüten, GPG arka uç desteği"
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Michael Leupold"
 msgstr "Michael Leupold"
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Former Maintainer"
 msgstr "Önceki Geliştirici"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "George Staikos"
 msgstr "George Staikos"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "Former maintainer"
 msgstr "Önceki geliştirici"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "Thiago Maceira"
 msgstr "Thiago Maceira"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "D-Bus Interface"
 msgstr "D-Bus Arayüzü"

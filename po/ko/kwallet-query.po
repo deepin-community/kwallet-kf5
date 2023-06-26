@@ -132,3 +132,9 @@ msgstr "지갑 %2에서 항목 %1의 값을 읽을 수 없습니다"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "지갑 %2에서 항목 %1의 값을 기록할 수 없습니다"
+
+#~ msgid "wallet"
+#~ msgstr "지갑"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"

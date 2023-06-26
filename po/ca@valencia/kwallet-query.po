@@ -1,18 +1,18 @@
 # Translation of kwallet-query.po to Catalan (Valencian)
-# Copyright (C) 2015-2019 This_file_is_part_of_KDE
+# Copyright (C) 2015-2022 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2015.
-# Antoni Bella Pérez <antonibella5@yahoo.com>, 2015.
+# Josep M. Ferrer <txemaq@gmail.com>, 2015, 2021.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2015, 2020, 2022.
 # Empar Montoro Martín <montoro_mde@gva.es>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kwallet\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-12-09 00:40+0000\n"
-"PO-Revision-Date: 2019-06-19 08:55+0200\n"
-"Last-Translator: Empar Montoro Martín <montoro_mde@gva.es>\n"
+"PO-Revision-Date: 2022-03-23 16:24+0100\n"
+"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
@@ -20,43 +20,42 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Poedit 2.0.6\n"
-"X-Project-Style: kde\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Josep M. Ferrer"
+msgstr "Empar Montoro Martín,Josep M. Ferrer"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "txemaq@gmail.com"
+msgstr "montoro_mde@gva.es,txemaq@gmail.com"
 
 #: main.cpp:22 main.cpp:24
 #, kde-format
 msgid "KWallet query interface"
-msgstr "Interfície per a consultar el KWallet"
+msgstr "Interfície de consulta de KWallet"
 
 #: main.cpp:26
 #, kde-format
 msgid "(c) 2015, The KDE Developers"
-msgstr "(c) 2015, The KDE Developers"
+msgstr "(c) 2015, Els desenvolupadors de KDE"
 
 #: main.cpp:31
 #, kde-format
 msgid "verbose output"
-msgstr "eixida detallada"
+msgstr "Eixida detallada"
 
 #: main.cpp:32
 #, kde-format
 msgid "list password entries"
-msgstr "llista les entrades de contrasenya"
+msgstr "Llista les entrades de contrasenya"
 
 #: main.cpp:33
 #, kde-format
 msgid "reads the secrets from the given <entry>"
-msgstr "llig els secrets de l'<entrada> indicada"
+msgstr "Llig els secrets de l'<entrada> indicada"
 
 #: main.cpp:33 main.cpp:34
 #, kde-format
@@ -69,14 +68,14 @@ msgid ""
 "write secrets to the given <entry>. The values are read from the standard "
 "input. IMPORTANT: previous wallet entry value will be overwritten!"
 msgstr ""
-"escriu els secrets en l'<entrada> indicada. Els valors es lligen des de "
+"Escriu els secrets en l'<entrada> indicada. Els valors es lligen des de "
 "l'entrada estàndard. IMPORTANT: Se sobreescriurà el valor previ de l'entrada "
-"de la cartera."
+"en la cartera!"
 
 #: main.cpp:35
 #, kde-format
 msgid "specify the folder in the wallet <folder>"
-msgstr "indiqueu la carpeta en la cartera <carpeta>"
+msgstr "Indiqueu la carpeta en la cartera <carpeta>"
 
 #: main.cpp:35
 #, kde-format
@@ -123,17 +122,17 @@ msgstr "No s'ha pogut obrir la cartera %1. S'està interrompent"
 #: querydriver.cpp:104 querydriver.cpp:121
 #, kde-format
 msgid "The folder %1 does not exist!"
-msgstr "La carpeta %1 no existeix."
+msgstr "La carpeta %1 no existix."
 
 #: querydriver.cpp:130
 #, kde-format
 msgid "Failed to read entry %1 value from the %2 wallet."
-msgstr "No s'ha pogut llegir el valor de l'entrada %1 de la cartera %2."
+msgstr "No s'ha pogut llegir el valor de l'entrada %1 des de la cartera %2."
 
 #: querydriver.cpp:141 querydriver.cpp:156
 #, kde-format
 msgid "Failed to read entry %1 value from the %2 wallet"
-msgstr "No s'ha pogut llegir el valor de l'entrada %1 de la cartera %2"
+msgstr "No s'ha pogut llegir el valor de l'entrada %1 des de la cartera %2"
 
 #: querydriver.cpp:189 querydriver.cpp:205
 #, kde-format

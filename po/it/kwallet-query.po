@@ -133,3 +133,9 @@ msgstr "Lettura del valore della voce %1 dal portafogli %2 non riuscita"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Scrittura del valore della voce %1 sul portafogli %2 non riuscita"
+
+#~ msgid "wallet"
+#~ msgstr "portafoglio"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"

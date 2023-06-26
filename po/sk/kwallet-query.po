@@ -129,3 +129,9 @@ msgstr "Zlyhalo čítanie hodnoty položky %1 z peňaženky %2"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Zlyhal zápis hodnoty položky %1 do peňaženky %2"
+
+#~ msgid "wallet"
+#~ msgstr "Peňaženka"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"

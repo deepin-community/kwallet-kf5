@@ -136,3 +136,9 @@ msgid "Failed to write entry %1 value to %2 wallet"
 msgstr ""
 "Der Wert des Eintrags %1 kann nicht in den Passwortspeicher %2 geschrieben "
 "werden"
+
+#~ msgid "wallet"
+#~ msgstr "Passwortspeicher"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"

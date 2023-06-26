@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-26 00:40+0000\n"
+"POT-Creation-Date: 2022-12-03 00:43+0000\n"
 "PO-Revision-Date: 2014-01-31 20:10+0100\n"
 "Last-Translator: Samir Ribić <megaribi@epn.ba>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -121,7 +121,7 @@ msgstr ""
 msgid "Retry"
 msgstr "Pokušaj Ponovo"
 
-#: backend/backendpersisthandler.cpp:633
+#: backend/backendpersisthandler.cpp:634
 #, kde-format
 msgid ""
 "<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If "
@@ -132,12 +132,12 @@ msgstr ""
 "koristite SmartCard uvjerite se da je umetnuta, zatim pokušajte ponovo. GPG "
 "greška je <b>%2</b></qt>"
 
-#: backend/backendpersisthandler.cpp:637
+#: backend/backendpersisthandler.cpp:638
 #, kde-format
 msgid "kwalletd GPG backend"
 msgstr "kwalletd GPG pozadina"
 
-#: backend/backendpersisthandler.cpp:683
+#: backend/backendpersisthandler.cpp:684
 #, kde-format
 msgid ""
 "<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was "
@@ -149,52 +149,52 @@ msgstr ""
 "sistemu."
 
 # >? Already opijen what? A wallet?
-#: backend/kwalletbackend.cc:249
+#: backend/kwalletbackend.cc:266
 #, kde-format
 msgid "Already open."
 msgstr "Već otvoren."
 
-#: backend/kwalletbackend.cc:251
+#: backend/kwalletbackend.cc:268
 #, kde-format
 msgid "Error opening file."
 msgstr "Greška pri otvaranju datoteke."
 
-#: backend/kwalletbackend.cc:253
+#: backend/kwalletbackend.cc:270
 #, kde-format
 msgid "Not a wallet file."
 msgstr "Nije datoteka novčanika."
 
-#: backend/kwalletbackend.cc:255
+#: backend/kwalletbackend.cc:272
 #, kde-format
 msgid "Unsupported file format revision."
 msgstr "Nepodržana revizija datotečnog formata."
 
-#: backend/kwalletbackend.cc:259
+#: backend/kwalletbackend.cc:276
 #, kde-format
 msgid "Unknown encryption scheme."
 msgstr "Nepoznata šema šifrovanja."
 
-#: backend/kwalletbackend.cc:261
+#: backend/kwalletbackend.cc:278
 #, kde-format
 msgid "Corrupt file?"
 msgstr "Iskvaren fajl?"
 
-#: backend/kwalletbackend.cc:263
+#: backend/kwalletbackend.cc:280
 #, kde-format
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr "Greška pri ovjeri cjelovitosti novčanika. Možda je iskvaren."
 
-#: backend/kwalletbackend.cc:267
+#: backend/kwalletbackend.cc:284
 #, kde-format
 msgid "Read error - possibly incorrect password."
 msgstr "Greška čitanja — možda je lozinka pogrešna."
 
-#: backend/kwalletbackend.cc:269
+#: backend/kwalletbackend.cc:286
 #, kde-format
 msgid "Decryption error."
 msgstr "Greška u dešifrovanju."
 
-#: backend/kwalletbackend.cc:445
+#: backend/kwalletbackend.cc:462
 #, kde-format
 msgid ""
 "Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
@@ -254,7 +254,7 @@ msgstr ""
 "Molimo izaberite tip novog novčanika ispod ili pritisnite Odustani za "
 "odbijanje zahtjeva programa"
 
-#: knewwalletdialog.cpp:127 knewwalletdialog.cpp:134 kwalletwizard.cpp:151
+#: knewwalletdialog.cpp:125 knewwalletdialog.cpp:132 kwalletwizard.cpp:151
 #: kwalletwizard.cpp:157
 #, fuzzy, kde-format
 #| msgid ""
@@ -267,7 +267,7 @@ msgstr ""
 "Nije uspjela inicijalizacija QGpgME biblioteke za OpenPGP protokol. Molimo "
 "provjerite konfiguraciju sistema a zatim pokušajte ponovo"
 
-#: knewwalletdialog.cpp:155
+#: knewwalletdialog.cpp:153
 #, fuzzy, kde-format
 #| msgid ""
 #| "Seems that your system has no keys suitable for encryption. Please set-up "
@@ -345,7 +345,7 @@ msgstr "Klasično, blowfish šfrirane datoteke"
 msgid "Use GPG encryption, for better protection"
 msgstr "Koristiti GPG šifriranje, za bolju zaštitu"
 
-#: kwalletd.cpp:570
+#: kwalletd.cpp:640
 #, kde-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
@@ -354,7 +354,7 @@ msgstr ""
 "<qt>KDE traži da otvori novčanik <b>%1</b>. Unesite ispod lozinku novčanika."
 "</qt>"
 
-#: kwalletd.cpp:574
+#: kwalletd.cpp:644
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -364,20 +364,20 @@ msgstr ""
 "lozinku novčanika.</qt>"
 
 #. i18n( "&Open" ), "wallet-open"));
-#: kwalletd.cpp:585 kwalletd.cpp:689 kwalletd.cpp:793 kwalletd.cpp:906
-#: kwalletd.cpp:929 kwalletd.cpp:940 kwalletd.cpp:945 kwalletd.cpp:1526
-#: main.cpp:168 main.cpp:170
+#: kwalletd.cpp:655 kwalletd.cpp:763 kwalletd.cpp:867 kwalletd.cpp:980
+#: kwalletd.cpp:1003 kwalletd.cpp:1014 kwalletd.cpp:1019 kwalletd.cpp:1609
+#: main.cpp:169 main.cpp:171
 #, kde-format
 msgid "KDE Wallet Service"
 msgstr "KDE‑ov servis novčanika"
 
-#: kwalletd.cpp:598
+#: kwalletd.cpp:670
 #, fuzzy, kde-format
 #| msgid "<b>KDE</b> has requested to open a wallet (%1)."
 msgid "An application has requested to open a wallet (%1)."
 msgstr "<b>KDE</b> traži pristup otvorenom novčaniku (%1)."
 
-#: kwalletd.cpp:599
+#: kwalletd.cpp:671
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the (unnamed) application requesting a "
@@ -385,19 +385,19 @@ msgctxt ""
 msgid "Switch there"
 msgstr "Prebaci tamo"
 
-#: kwalletd.cpp:601
+#: kwalletd.cpp:673
 #, kde-format
 msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr "<b>%1</b> traži da otvori novčanik (%2)."
 
-#: kwalletd.cpp:603
+#: kwalletd.cpp:675
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
 msgstr "Prebaci na %1"
 
-#: kwalletd.cpp:617 kwalletd.cpp:699
+#: kwalletd.cpp:691 kwalletd.cpp:773
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
@@ -407,7 +407,7 @@ msgstr ""
 "greške %2: %3)</qt>"
 
 # >? Really "click Cancel", or "click Deny"?
-#: kwalletd.cpp:665
+#: kwalletd.cpp:739
 #, kde-format
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
@@ -418,7 +418,7 @@ msgstr ""
 "bezbjedno skladište. Unesite lozinku koja pripada ovom novčaniku, ili "
 "kliknite na <interface>Odbij</interface> da odbijete zahtjev.</html>"
 
-#: kwalletd.cpp:670
+#: kwalletd.cpp:744
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -431,7 +431,7 @@ msgstr ""
 "novčaniku, ili kliknite na <interface>Odbij</interface> da odbijete zahtjev."
 "</qt>"
 
-#: kwalletd.cpp:678
+#: kwalletd.cpp:752
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -441,7 +441,7 @@ msgstr ""
 "<qt>KDE traži da napravi novi novčanik po imenu <b>%1</b>. Izaberite lozinku "
 "za ovaj novčanik, ili <interface>Odbij</interface> da odbijete zahtjev.</qt>"
 
-#: kwalletd.cpp:683
+#: kwalletd.cpp:757
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -452,12 +452,12 @@ msgstr ""
 "Izaberite lozinku za ovaj novčanik, ili <interface>Odbij</interface> da "
 "odbijete zahtjev.</qt>"
 
-#: kwalletd.cpp:795
+#: kwalletd.cpp:869
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE traži pristup otvorenom novčaniku <b>%1</b>.</qt>"
 
-#: kwalletd.cpp:797
+#: kwalletd.cpp:871
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
@@ -465,7 +465,7 @@ msgid ""
 msgstr ""
 "<qt>Program <b>%1</b> traži pristup otvorenom novčaniku <b>%2</b>.</qt>"
 
-#: kwalletd.cpp:905
+#: kwalletd.cpp:979
 #, kde-format
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
@@ -474,7 +474,7 @@ msgstr ""
 "<html>Ne mogu da otvorim novčanik. Mora biti otvoren da bi se izmijenila "
 "lozinka.</html>"
 
-#: kwalletd.cpp:921
+#: kwalletd.cpp:995
 #, kde-format
 msgid ""
 "<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use "
@@ -485,24 +485,24 @@ msgstr ""
 "koristite GPG alate (kao što je kleopatra) za izmjenu šifre povezane s tim "
 "ključem.</qt>"
 
-#: kwalletd.cpp:928
+#: kwalletd.cpp:1002
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>Izaberite novu lozinku za novčanik <b>%1</b>.</qt>"
 
-#: kwalletd.cpp:940
+#: kwalletd.cpp:1014
 #, kde-format
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "Greška pri ponovnom šifrovanju novčanika. Lozinka nije izmijenjena."
 
-#: kwalletd.cpp:945
+#: kwalletd.cpp:1019
 #, kde-format
 msgid "Error reopening the wallet. Data may be lost."
 msgstr ""
 "Greška pri ponovnom otvaranju novčaniku. Može biti da su neki podaci "
 "izgubljeni."
 
-#: kwalletd.cpp:1525
+#: kwalletd.cpp:1608
 #, kde-format
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
@@ -724,47 +724,59 @@ msgstr ""
 msgid "What kind of encryption do you wish?"
 msgstr "Koju vrstu šifriranja želite?"
 
-#: main.cpp:172
+#: main.cpp:173
 #, kde-format
 msgid "(C) 2002-2013, The KDE Developers"
 msgstr "(C) 2002-2013, KDE razvojni tim"
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Valentin Rusu"
 msgstr "Valentin Rusu"
 
-#: main.cpp:173
+#: main.cpp:174
 #, kde-format
 msgid "Maintainer, GPG backend support"
 msgstr "Održavanje, Podrška za GPG pozadinu"
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Michael Leupold"
 msgstr "Mihael Lojpold"
 
-#: main.cpp:174
+#: main.cpp:175
 #, kde-format
 msgid "Former Maintainer"
 msgstr "Bivši održavalac"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "George Staikos"
 msgstr "Džordž Stajkos"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "Former maintainer"
 msgstr "bivši održavalac"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "Thiago Maceira"
 msgstr "Tijago Masijeira"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "D-Bus Interface"
 msgstr "D‑Bus sučelje"
+
+#~ msgid "kwalletd"
+#~ msgstr "kwalletd"
+
+#, fuzzy
+#~| msgid "KDE Wallet Service"
+#~ msgid "KDE Wallet Migration Agent"
+#~ msgstr "KDE‑ov servis novčanika"
+
+#~ msgctxt "Text of a button to ignore the open-wallet notification"
+#~ msgid "Ignore"
+#~ msgstr "Ignoriši"

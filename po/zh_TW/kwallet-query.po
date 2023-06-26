@@ -130,3 +130,6 @@ msgstr "從錢包 %2 讀取項目 %1 的值失敗"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "將項目 %1 的值寫入錢包 %2 失敗"
+
+#~ msgid "wallet"
+#~ msgstr "錢包"

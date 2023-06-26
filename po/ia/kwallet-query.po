@@ -131,3 +131,6 @@ msgstr "Falleva leger entrata %1 valor ab le %2 portafolio"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Falleva scriber entrata %1 valor a %2 portafolio"
+
+#~ msgid "wallet"
+#~ msgstr "Portafolio"

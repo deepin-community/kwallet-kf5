@@ -1,13 +1,13 @@
 # Translation of kwalletd5 to Norwegian Nynorsk
 #
 # Eirik U. Birkeland <eirbir@gmail.com>, 2009, 2010.
-# Karl Ove Hufthammer <karl@huftis.org>, 2015, 2016, 2017, 2018, 2020.
+# Karl Ove Hufthammer <karl@huftis.org>, 2015, 2016, 2017, 2018, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-09 00:40+0000\n"
-"PO-Revision-Date: 2020-03-23 21:43+0100\n"
+"POT-Creation-Date: 2022-12-03 00:43+0000\n"
+"PO-Revision-Date: 2022-06-19 13:57+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.12.3\n"
+"X-Generator: Lokalize 22.04.2\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -79,8 +79,9 @@ msgid ""
 "wallet <b>%1</b>. Error code is <b>%2</b>. Please fix your system "
 "configuration, then try again.</qt>"
 msgstr ""
-"<qt>Feil ved forsøk på å klargjera OpenPGP ved forsøk på å opna lommeboka <b>"
-"%1</b>. Feilkoden er <b>%2</b>. Rett på systemoppsettet og forsøk igjen.</qt>"
+"<qt>Feil ved forsøk på å klargjera OpenPGP ved forsøk på å opna lommeboka "
+"<b>%1</b>. Feilkoden er <b>%2</b>. Rett på systemoppsettet og forsøk igjen.</"
+"qt>"
 
 #: backend/backendpersisthandler.cpp:616
 #, kde-format
@@ -88,15 +89,15 @@ msgid ""
 "<qt>Error when attempting to initialize OpenPGP while attempting to open the "
 "wallet <b>%1</b>. Please fix your system configuration, then try again.</qt>"
 msgstr ""
-"<qt>Feil ved forsøk på å klargjera OpenPGP ved forsøk på å opna lommeboka <b>"
-"%1</b>. Rett på systemoppsettet og forsøk igjen.</qt>"
+"<qt>Feil ved forsøk på å klargjera OpenPGP ved forsøk på å opna lommeboka "
+"<b>%1</b>. Rett på systemoppsettet og forsøk igjen.</qt>"
 
 #: backend/backendpersisthandler.cpp:629
 #, kde-format
 msgid "Retry"
 msgstr "Prøv på nytt"
 
-#: backend/backendpersisthandler.cpp:633
+#: backend/backendpersisthandler.cpp:634
 #, kde-format
 msgid ""
 "<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If "
@@ -107,12 +108,12 @@ msgstr ""
 "brukar eit Smartkort, sjå etter at det er sett inn, og forsøk så på nytt."
 "<br> <br>GPG-feilen var <b>%2</b></qt>"
 
-#: backend/backendpersisthandler.cpp:637
+#: backend/backendpersisthandler.cpp:638
 #, kde-format
 msgid "kwalletd GPG backend"
 msgstr "kwalletd GPG-motor"
 
-#: backend/backendpersisthandler.cpp:683
+#: backend/backendpersisthandler.cpp:684
 #, kde-format
 msgid ""
 "<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was "
@@ -122,52 +123,52 @@ msgstr ""
 "<qt>Feil ved forsøk på å opna lommeboka <b>%1</b>. Lommeboka er kryptert med "
 "GPG-nøkkel med ID <b>%2</b>, men denne nøkkelen finst ikkje på systemet.</qt>"
 
-#: backend/kwalletbackend.cc:249
+#: backend/kwalletbackend.cc:266
 #, kde-format
 msgid "Already open."
 msgstr "Opna frå før."
 
-#: backend/kwalletbackend.cc:251
+#: backend/kwalletbackend.cc:268
 #, kde-format
 msgid "Error opening file."
 msgstr "Feil ved opning av fil."
 
-#: backend/kwalletbackend.cc:253
+#: backend/kwalletbackend.cc:270
 #, kde-format
 msgid "Not a wallet file."
 msgstr "Ikkje ei lommebokfil."
 
-#: backend/kwalletbackend.cc:255
+#: backend/kwalletbackend.cc:272
 #, kde-format
 msgid "Unsupported file format revision."
 msgstr "Revisjonen av filformatet er ikkje støtta."
 
-#: backend/kwalletbackend.cc:259
+#: backend/kwalletbackend.cc:276
 #, kde-format
 msgid "Unknown encryption scheme."
 msgstr "Ukjend kryptering."
 
-#: backend/kwalletbackend.cc:261
+#: backend/kwalletbackend.cc:278
 #, kde-format
 msgid "Corrupt file?"
 msgstr "Er fila øydelagd?"
 
-#: backend/kwalletbackend.cc:263
+#: backend/kwalletbackend.cc:280
 #, kde-format
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr "Feil ved kontroll av lommeboka. Det kan henda ho er øydelagd."
 
-#: backend/kwalletbackend.cc:267
+#: backend/kwalletbackend.cc:284
 #, kde-format
 msgid "Read error - possibly incorrect password."
 msgstr "Lesefeil – passordet kan vera feil."
 
-#: backend/kwalletbackend.cc:269
+#: backend/kwalletbackend.cc:286
 #, kde-format
 msgid "Decryption error."
 msgstr "Feil ved dekryptering."
 
-#: backend/kwalletbackend.cc:445
+#: backend/kwalletbackend.cc:462
 #, kde-format
 msgid ""
 "Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
@@ -223,12 +224,12 @@ msgid ""
 "Please choose the new wallet's type below or click cancel to deny the "
 "application's request.</qt>"
 msgstr ""
-"<qt>Programmet «<b>%1</b>» har bedt om å få laga ei ny lommebok med namn «<b>"
-"%2</b>». Denne vert brukt til å lagra følsomme data på ein trygg måte. "
+"<qt>Programmet «<b>%1</b>» har bedt om å få laga ei ny lommebok med namn "
+"«<b>%2</b>». Denne vert brukt til å lagra følsomme data på ein trygg måte. "
 "Oppgje eit passord for denne lommeboka, eller trykk «Avbryt» for å nekta "
 "programmet tilgang.</qt>"
 
-#: knewwalletdialog.cpp:127 knewwalletdialog.cpp:134 kwalletwizard.cpp:151
+#: knewwalletdialog.cpp:125 knewwalletdialog.cpp:132 kwalletwizard.cpp:151
 #: kwalletwizard.cpp:157
 #, kde-format
 msgid ""
@@ -238,7 +239,7 @@ msgstr ""
 "GpgME-biblioteket vart ikkje klargjort for OpenPGP-protokollen. Kontroller "
 "systemoppsettet og prøv så på nytt."
 
-#: knewwalletdialog.cpp:155
+#: knewwalletdialog.cpp:153
 #, kde-format
 msgid ""
 "Seems that your system has no keys suitable for encryption. Please set-up at "
@@ -260,6 +261,8 @@ msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">NOTE:</span> this "
 "list shows only &quot;ultimate-level&quot; trusted keys</p></body></html>"
 msgstr ""
+"<html><head/><body><p><span style=\"font-weight:600;\">MERK:</span> denne "
+"lista viser berre nøklar som har fullstendig tillit</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QTableWidget, listCertificates)
 #: knewwalletdialoggpg.ui:59
@@ -313,7 +316,7 @@ msgstr "Klassisk blowfish-kryptert fil"
 msgid "Use GPG encryption, for better protection"
 msgstr "Bruk GPG-kryptering, som gjev betre vern"
 
-#: kwalletd.cpp:570
+#: kwalletd.cpp:640
 #, kde-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
@@ -322,7 +325,7 @@ msgstr ""
 "<qt>KDE har bedt om å få opna lommeboka «<b>%1</b>». Oppgje eit passord for "
 "denne lommeboka nedanfor.</qt>"
 
-#: kwalletd.cpp:574
+#: kwalletd.cpp:644
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -332,19 +335,19 @@ msgstr ""
 "Oppgje eit passord for denne lommeboka nedanfor.</qt>"
 
 #. i18n( "&Open" ), "wallet-open"));
-#: kwalletd.cpp:585 kwalletd.cpp:689 kwalletd.cpp:793 kwalletd.cpp:906
-#: kwalletd.cpp:929 kwalletd.cpp:940 kwalletd.cpp:945 kwalletd.cpp:1526
-#: main.cpp:166 main.cpp:172 main.cpp:174
+#: kwalletd.cpp:655 kwalletd.cpp:763 kwalletd.cpp:867 kwalletd.cpp:980
+#: kwalletd.cpp:1003 kwalletd.cpp:1014 kwalletd.cpp:1019 kwalletd.cpp:1609
+#: main.cpp:169 main.cpp:171
 #, kde-format
 msgid "KDE Wallet Service"
 msgstr "KDE Lommebok-teneste"
 
-#: kwalletd.cpp:598
+#: kwalletd.cpp:670
 #, kde-format
 msgid "An application has requested to open a wallet (%1)."
 msgstr "Eit program har bedt om å få opna ei lommebok (%1)."
 
-#: kwalletd.cpp:599
+#: kwalletd.cpp:671
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the (unnamed) application requesting a "
@@ -352,19 +355,19 @@ msgctxt ""
 msgid "Switch there"
 msgstr "Byt der"
 
-#: kwalletd.cpp:601
+#: kwalletd.cpp:673
 #, kde-format
 msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr "<b>%1</b> har bedt om tilgang å opna ei lommebok (%2)."
 
-#: kwalletd.cpp:603
+#: kwalletd.cpp:675
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
 msgstr "Byt til %1"
 
-#: kwalletd.cpp:617 kwalletd.cpp:699
+#: kwalletd.cpp:691 kwalletd.cpp:773
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
@@ -373,7 +376,7 @@ msgstr ""
 "<qt>Feil ved opning av lommeboka «<b>%1</b>». Prøv ein gong til. <br/"
 ">(Feilkode %2: %3)</qt>"
 
-#: kwalletd.cpp:665
+#: kwalletd.cpp:739
 #, kde-format
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
@@ -384,7 +387,7 @@ msgstr ""
 "data på ein trygg måte. Oppgje eit passord for denne lommeboka eller trykk "
 "«Avbryt» for å nekta programmet tilgang."
 
-#: kwalletd.cpp:670
+#: kwalletd.cpp:744
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -396,7 +399,7 @@ msgstr ""
 "bruka til å lagra følsomme data på ein trygg måte. Oppgje eit passord for "
 "denne lommeboka eller trykk «Avbryt» for å nekta programmet tilgang.</qt>"
 
-#: kwalletd.cpp:678
+#: kwalletd.cpp:752
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -406,7 +409,7 @@ msgstr ""
 "<qt>KDE har bedt om å få laga ei ny lommebok med namnet «<b>%1</b>». Vel eit "
 "passord for denne lommeboka, eller avbryt for å nekta førespurnaden.</qt>"
 
-#: kwalletd.cpp:683
+#: kwalletd.cpp:757
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -417,21 +420,21 @@ msgstr ""
 "«<b>%2</b>». Vel eit passord for denne lommeboka, eller avbryt for å nekta "
 "førespurnaden.</qt>"
 
-#: kwalletd.cpp:795
+#: kwalletd.cpp:869
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE har bedt om tilgang til den opne lommeboka «<b>%1</b>».</qt>"
 
-#: kwalletd.cpp:797
+#: kwalletd.cpp:871
 #, kde-format
 msgid ""
-"<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
-"%2</b>'.</qt>"
+"<qt>The application '<b>%1</b>' has requested access to the open wallet "
+"'<b>%2</b>'.</qt>"
 msgstr ""
-"<qt>Programmet «<b>%1</b>» har bedt om tilgang til den opne lommeboka «<b>"
-"%2</b>».</qt>"
+"<qt>Programmet «<b>%1</b>» har bedt om tilgang til den opne lommeboka "
+"«<b>%2</b>».</qt>"
 
-#: kwalletd.cpp:905
+#: kwalletd.cpp:979
 #, kde-format
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
@@ -439,7 +442,7 @@ msgid ""
 msgstr ""
 "Kan ikkje opna lommeboka. Lommeboka må opnast for å kunna endra passordet."
 
-#: kwalletd.cpp:921
+#: kwalletd.cpp:995
 #, kde-format
 msgid ""
 "<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use "
@@ -450,22 +453,22 @@ msgstr ""
 "b>-verktøy (slik som <b>kleopatra</b>) til å endra passord-setninga for "
 "nøkkelen.</qt>"
 
-#: kwalletd.cpp:928
+#: kwalletd.cpp:1002
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>Vel nytt passord for lommeboka «<b>%1</b>».</qt>"
 
-#: kwalletd.cpp:940
+#: kwalletd.cpp:1014
 #, kde-format
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "Feil ved ny kryptering av lommeboka. Klarte ikkje endra passordet."
 
-#: kwalletd.cpp:945
+#: kwalletd.cpp:1019
 #, kde-format
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "Feil ved gjenopning av lommeboka. Nokre data kan vera vekke."
 
-#: kwalletd.cpp:1525
+#: kwalletd.cpp:1608
 #, kde-format
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
@@ -529,6 +532,13 @@ msgid ""
 "font-weight:600;\">NOTE:</span> this list contains only &quot;ultimate-"
 "level&quot; trusted keys.</p></body></html>"
 msgstr ""
+"<html><head/><body> <p>GPG-basert lommebok brukar ein GPG-krypteringsnøkkel "
+"til å kryptera data trygt på disk. Nøkkelen må vera tilgjengeleg når det "
+"trengst dekryptering, elles vil ikkje lommeboka vera tilgjengeleg. Viss du "
+"for eksempel vel ein krypteringsnøkkel basert på SmartCard, så vil GPG-"
+"systemet be deg setja inn kortet og tasta PIN-koden ved forsøk på å opna "
+"lommeboka.<span style=\"font-weight:600;\">MERK:</span> denne lista inneheld "
+"berre nøklar som har fullstendig tillit.</p> </body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kwalletwizardpagegpgkey.ui:42
@@ -674,47 +684,47 @@ msgstr ""
 msgid "What kind of encryption do you wish?"
 msgstr "Kva slags kryptering vil du bruka?"
 
-#: main.cpp:176
+#: main.cpp:173
 #, kde-format
 msgid "(C) 2002-2013, The KDE Developers"
 msgstr "© 2002–2013 KDE-utviklarane"
 
-#: main.cpp:177
+#: main.cpp:174
 #, kde-format
 msgid "Valentin Rusu"
 msgstr "Valentin Rusu"
 
-#: main.cpp:177
+#: main.cpp:174
 #, kde-format
 msgid "Maintainer, GPG backend support"
 msgstr "Vedlikehaldar, støtte for GPG"
 
-#: main.cpp:178
+#: main.cpp:175
 #, kde-format
 msgid "Michael Leupold"
 msgstr "Michael Leupold"
 
-#: main.cpp:178
+#: main.cpp:175
 #, kde-format
 msgid "Former Maintainer"
 msgstr "Tidlegare vedlikehaldar"
 
-#: main.cpp:179
+#: main.cpp:176
 #, kde-format
 msgid "George Staikos"
 msgstr "George Staikos"
 
-#: main.cpp:179
+#: main.cpp:176
 #, kde-format
 msgid "Former maintainer"
 msgstr "Tidlegare vedlikehaldar"
 
-#: main.cpp:180
+#: main.cpp:177
 #, kde-format
 msgid "Thiago Maceira"
 msgstr "Thiago Maceira"
 
-#: main.cpp:180
+#: main.cpp:177
 #, kde-format
 msgid "D-Bus Interface"
 msgstr "D-Bus-grensesnitt"

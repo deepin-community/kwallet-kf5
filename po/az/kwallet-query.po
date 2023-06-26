@@ -130,3 +130,6 @@ msgstr "%2 cüzdanından %1 girişinin oxunması alınmadı"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "%1 girişinin %2 cüzdanına yazılması alınmadı"
+
+#~ msgid "wallet"
+#~ msgstr "cüzdan"

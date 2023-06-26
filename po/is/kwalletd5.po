@@ -2,20 +2,20 @@
 # Copyright (C) 2009 This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Sveinn í Felli <sveinki@nett.is>, 2009, 2016.
+# Sveinn í Felli <sveinki@nett.is>, 2009, 2016, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-26 00:40+0000\n"
-"PO-Revision-Date: 2016-04-08 22:57+0000\n"
+"POT-Creation-Date: 2022-12-03 00:43+0000\n"
+"PO-Revision-Date: 2022-09-01 16:19+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
-"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language-Team: Icelandic\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 21.12.3\n"
 "Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
 "\n"
 "\n"
@@ -79,9 +79,9 @@ msgstr ""
 #: backend/backendpersisthandler.cpp:629
 #, kde-format
 msgid "Retry"
-msgstr ""
+msgstr "Reyna aftur"
 
-#: backend/backendpersisthandler.cpp:633
+#: backend/backendpersisthandler.cpp:634
 #, kde-format
 msgid ""
 "<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If "
@@ -89,12 +89,12 @@ msgid ""
 "<br><br>GPG error was <b>%2</b></qt>"
 msgstr ""
 
-#: backend/backendpersisthandler.cpp:637
+#: backend/backendpersisthandler.cpp:638
 #, kde-format
 msgid "kwalletd GPG backend"
-msgstr ""
+msgstr "kwalletd GPG-bakendi"
 
-#: backend/backendpersisthandler.cpp:683
+#: backend/backendpersisthandler.cpp:684
 #, kde-format
 msgid ""
 "<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was "
@@ -102,52 +102,52 @@ msgid ""
 "system.</qt>"
 msgstr ""
 
-#: backend/kwalletbackend.cc:249
+#: backend/kwalletbackend.cc:266
 #, kde-format
 msgid "Already open."
 msgstr "Þegar opin."
 
-#: backend/kwalletbackend.cc:251
+#: backend/kwalletbackend.cc:268
 #, kde-format
 msgid "Error opening file."
 msgstr "Villa við skráaropnun."
 
-#: backend/kwalletbackend.cc:253
+#: backend/kwalletbackend.cc:270
 #, kde-format
 msgid "Not a wallet file."
 msgstr "Ekki veskisskrá."
 
-#: backend/kwalletbackend.cc:255
+#: backend/kwalletbackend.cc:272
 #, kde-format
 msgid "Unsupported file format revision."
 msgstr "Óþekkt útgáfa skráarsniðs."
 
-#: backend/kwalletbackend.cc:259
+#: backend/kwalletbackend.cc:276
 #, kde-format
 msgid "Unknown encryption scheme."
-msgstr "Óþekkt dulritunaraðferð."
+msgstr "Óþekkt dulritunarskema."
 
-#: backend/kwalletbackend.cc:261
+#: backend/kwalletbackend.cc:278
 #, kde-format
 msgid "Corrupt file?"
 msgstr "Skemmd skrá?"
 
-#: backend/kwalletbackend.cc:263
+#: backend/kwalletbackend.cc:280
 #, kde-format
 msgid "Error validating wallet integrity. Possibly corrupted."
 msgstr "Villa við staðfestingu veskis. Það er mögulega skemmt."
 
-#: backend/kwalletbackend.cc:267
+#: backend/kwalletbackend.cc:284
 #, kde-format
 msgid "Read error - possibly incorrect password."
 msgstr "Lesvilla - mögulega rangt lykilorð."
 
-#: backend/kwalletbackend.cc:269
+#: backend/kwalletbackend.cc:286
 #, kde-format
 msgid "Decryption error."
-msgstr "Dulritunarvilla."
+msgstr "Afkóðunarvilla."
 
-#: backend/kwalletbackend.cc:445
+#: backend/kwalletbackend.cc:462
 #, kde-format
 msgid ""
 "Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
@@ -180,39 +180,31 @@ msgid "Deny &Forever"
 msgstr "Hafna allta&f"
 
 #: knewwalletdialog.cpp:50
-#, fuzzy, kde-format
-#| msgid ""
-#| "KDE has requested to open the wallet. This is used to store sensitive "
-#| "data in a secure fashion. Please enter a password to use with this wallet "
-#| "or click cancel to deny the application's request."
+#, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. This is used "
 "to store sensitive data in a secure fashion. Please choose the new wallet's "
 "type below or click cancel to deny the application's request.</qt>"
 msgstr ""
-"KDE hefur beðið um að veskið sé opnað.  Veskið er notað til þess að geyma "
-"viðkvæm gögn á öruggan hátt.  Vinsamlegast sláðu inn lykilorð til að nota "
-"fyrir þetta veski, eða ýttu á 'Hætta við' til þess að neita fyrirspurninni."
+"<qt>KDE hefur beðið um að búa til nýtt veski með heitinu '<b>%1</b>'.  "
+"Veskið er notað til þess að geyma viðkvæm gögn á öruggan hátt. Veldu hér "
+"fyrir neðan hvaða tegund veskis á að nota eða ýttu á 'Hætta við' til þess að "
+"neita fyrirspurninni.</qt>"
 
 #: knewwalletdialog.cpp:55
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. "
-#| "This is used to store sensitive data in a secure fashion. Please enter a "
-#| "password to use with this wallet or click cancel to deny the "
-#| "application's request.</qt>"
+#, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
 "'<b>%2</b>'. This is used to store sensitive data in a secure fashion. "
 "Please choose the new wallet's type below or click cancel to deny the "
 "application's request.</qt>"
 msgstr ""
-"<qt>Forritið '<b>%1</b>' hefur beðið um að KDE veskið verði opnað.  Veskið "
-"er notað til þess að geyma viðkvæm gögn á öruggan hátt.  Vinsamlegast sláðu "
-"inn lykilorð til að nota fyrir þetta veski, eða ýttu á 'Hætta við' til þess "
-"að neita fyrirspurninni.</qt>"
+"<qt>Forritið '<b>%1</b>' hefur beðið um að búa til nýtt veski með heitinu "
+"'<b>%2</b>'. Veskið er notað til þess að geyma viðkvæm gögn á öruggan hátt. "
+"Veldu hér fyrir neðan hvaða tegund veskis á að nota eða ýttu á 'Hætta við' "
+"til þess að neita fyrirspurninni.</qt>"
 
-#: knewwalletdialog.cpp:127 knewwalletdialog.cpp:134 kwalletwizard.cpp:151
+#: knewwalletdialog.cpp:125 knewwalletdialog.cpp:132 kwalletwizard.cpp:151
 #: kwalletwizard.cpp:157
 #, kde-format
 msgid ""
@@ -220,7 +212,7 @@ msgid ""
 "check your system's configuration then try again."
 msgstr ""
 
-#: knewwalletdialog.cpp:155
+#: knewwalletdialog.cpp:153
 #, kde-format
 msgid ""
 "Seems that your system has no keys suitable for encryption. Please set-up at "
@@ -231,7 +223,7 @@ msgstr ""
 #: knewwalletdialoggpg.ui:17
 #, kde-format
 msgid "Please select the signing key from the list below:"
-msgstr ""
+msgstr "Veldu undirritunarlykilinn af listanum hér að neðan:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: knewwalletdialoggpg.ui:24
@@ -245,19 +237,19 @@ msgstr ""
 #: knewwalletdialoggpg.ui:59
 #, kde-format
 msgid "Name"
-msgstr ""
+msgstr "Nafn"
 
 #. i18n: ectx: property (text), widget (QTableWidget, listCertificates)
 #: knewwalletdialoggpg.ui:64
 #, kde-format
 msgid "E-Mail"
-msgstr ""
+msgstr "Tölvupóstur"
 
 #. i18n: ectx: property (text), widget (QTableWidget, listCertificates)
 #: knewwalletdialoggpg.ui:69
 #, kde-format
 msgid "Key-ID"
-msgstr ""
+msgstr "Auðkenni lykils"
 
 #. i18n: ectx: property (comment), widget (KTitleWidget, ktitlewidget)
 #: knewwalletdialogintro.ui:17 kwalletwizardpageintro.ui:17
@@ -267,70 +259,65 @@ msgstr "Veskjakerfi KDE"
 
 #. i18n: ectx: property (text), widget (QLabel, labelIntro)
 #: knewwalletdialogintro.ui:30
-#, fuzzy, no-c-format, kde-format
-#| msgid ""
-#| "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. "
-#| "This is used to store sensitive data in a secure fashion. Please enter a "
-#| "password to use with this wallet or click cancel to deny the "
-#| "application's request.</qt>"
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body><p>The application '<span style=\" font-weight:600;\">%1</"
 "span>' has requested to open the KDE wallet. This is used to store sensitive "
 "data in a secure fashion. Please choose the new wallet's type below or click "
 "cancel to deny the application's request.</p></body></html>"
 msgstr ""
-"<qt>Forritið '<b>%1</b>' hefur beðið um að KDE veskið verði opnað.  Veskið "
-"er notað til þess að geyma viðkvæm gögn á öruggan hátt.  Vinsamlegast sláðu "
-"inn lykilorð til að nota fyrir þetta veski, eða ýttu á 'Hætta við' til þess "
-"að neita fyrirspurninni.</qt>"
+"<html><head/><body><p>Forritið '<span style=\" font-weight:600;\">%1</span>' "
+"hefur beðið um að KDE-veskið verði opnað. Veskið er notað til þess að geyma "
+"viðkvæm gögn á öruggan hátt. Veldu hér fyrir neðan hvaða tegund veskis á að "
+"nota eða ýttu á 'Hætta við' til þess að neita fyrirspurninni.</p></body></"
+"html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioBlowfish)
 #. i18n: ectx: property (text), widget (QRadioButton, _radioBlowfish)
 #: knewwalletdialogintro.ui:66 kwalletwizardpagepasswordgpg.ui:68
 #, kde-format
 msgid "Classic, blowfish encrypted file"
-msgstr ""
+msgstr "Klassísk dulrituð skrá"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioGpg)
 #. i18n: ectx: property (text), widget (QRadioButton, _radioGpg)
 #: knewwalletdialogintro.ui:73 kwalletwizardpagepasswordgpg.ui:55
 #, kde-format
 msgid "Use GPG encryption, for better protection"
-msgstr ""
+msgstr "Notaðu GPG-dulritun, til að fá betra öryggi"
 
-#: kwalletd.cpp:570
+#: kwalletd.cpp:640
 #, kde-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
 "password for this wallet below.</qt>"
 msgstr ""
-"<qt>KDE hefur beðið um að veskið '<b>%1</b>' verði opnað.  Vinsamlegast "
-"sláðu inn lykilorð fyrir veskið hér fyrir neðan.</qt>"
+"<qt>KDE hefur beðið um að veskið '<b>%1</b>' verði opnað. Settu inn lykilorð "
+"fyrir veskið hér fyrir neðan.</qt>"
 
-#: kwalletd.cpp:574
+#: kwalletd.cpp:644
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
 "b>'. Please enter the password for this wallet below.</qt>"
 msgstr ""
 "<qt>Forritið '<b>%1</b>' hefur beðið um að veskið '<b>%2</b>' verði opnað. "
-"Vinsamlegast sláðu inn lykilorð fyrir veskið hér fyrir neðan.</qt>"
+"Settu inn lykilorð fyrir veskið hér fyrir neðan.</qt>"
 
 #. i18n( "&Open" ), "wallet-open"));
-#: kwalletd.cpp:585 kwalletd.cpp:689 kwalletd.cpp:793 kwalletd.cpp:906
-#: kwalletd.cpp:929 kwalletd.cpp:940 kwalletd.cpp:945 kwalletd.cpp:1526
-#: main.cpp:168 main.cpp:170
+#: kwalletd.cpp:655 kwalletd.cpp:763 kwalletd.cpp:867 kwalletd.cpp:980
+#: kwalletd.cpp:1003 kwalletd.cpp:1014 kwalletd.cpp:1019 kwalletd.cpp:1609
+#: main.cpp:169 main.cpp:171
 #, kde-format
 msgid "KDE Wallet Service"
 msgstr "KDE veskisþjónusta"
 
-#: kwalletd.cpp:598
-#, fuzzy, kde-format
-#| msgid "<b>KDE</b> has requested to open a wallet (%1)."
+#: kwalletd.cpp:670
+#, kde-format
 msgid "An application has requested to open a wallet (%1)."
-msgstr "<b>KDE</b> hefur beðið um að fá að opna veskið (%1)."
+msgstr "Forrit hefur beðið um að fá að opna veski (%1)."
 
-#: kwalletd.cpp:599
+#: kwalletd.cpp:671
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the (unnamed) application requesting a "
@@ -338,19 +325,19 @@ msgctxt ""
 msgid "Switch there"
 msgstr "Skipta yfir"
 
-#: kwalletd.cpp:601
+#: kwalletd.cpp:673
 #, kde-format
 msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr "<b>%1</b> hefur beðið um að fá að opna veskið (%2)."
 
-#: kwalletd.cpp:603
+#: kwalletd.cpp:675
 #, kde-format
 msgctxt ""
 "Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
 msgstr "Skipta yfir í %1"
 
-#: kwalletd.cpp:617 kwalletd.cpp:699
+#: kwalletd.cpp:691 kwalletd.cpp:773
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
@@ -359,7 +346,7 @@ msgstr ""
 "<qt>Villa við opnum veskis '<b>%1</b>'. Vinsamlegast reyndu aftur.<br /"
 ">(Villuboð %2: %3)</qt>"
 
-#: kwalletd.cpp:665
+#: kwalletd.cpp:739
 #, kde-format
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
@@ -367,10 +354,10 @@ msgid ""
 "click cancel to deny the application's request."
 msgstr ""
 "KDE hefur beðið um að veskið sé opnað.  Veskið er notað til þess að geyma "
-"viðkvæm gögn á öruggan hátt.  Vinsamlegast sláðu inn lykilorð til að nota "
-"fyrir þetta veski, eða ýttu á 'Hætta við' til þess að neita fyrirspurninni."
+"viðkvæm gögn á öruggan hátt. Settu inn lykilorð til að nota fyrir þetta "
+"veski, eða ýttu á 'Hætta við' til þess að neita fyrirspurninni."
 
-#: kwalletd.cpp:670
+#: kwalletd.cpp:744
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -379,11 +366,11 @@ msgid ""
 "qt>"
 msgstr ""
 "<qt>Forritið '<b>%1</b>' hefur beðið um að KDE veskið verði opnað.  Veskið "
-"er notað til þess að geyma viðkvæm gögn á öruggan hátt.  Vinsamlegast sláðu "
-"inn lykilorð til að nota fyrir þetta veski, eða ýttu á 'Hætta við' til þess "
-"að neita fyrirspurninni.</qt>"
+"er notað til þess að geyma viðkvæm gögn á öruggan hátt. Settu inn lykilorð "
+"til að nota fyrir þetta veski, eða ýttu á 'Hætta við' til þess að neita "
+"fyrirspurninni.</qt>"
 
-#: kwalletd.cpp:678
+#: kwalletd.cpp:752
 #, kde-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -391,10 +378,10 @@ msgid ""
 "request.</qt>"
 msgstr ""
 "<qt>KDE hefur beðið um að nýtt veski með heitið '<b>%1</b>' verði búið til.  "
-"Vinsamlegast veldu þér lykilorð fyrir þetta veski, eða ýttu á 'Hætta við' "
-"til að neita fyrirspurninni.</qt>"
+"Veldu þér lykilorð fyrir þetta veski, eða ýttu á 'Hætta við' til að neita "
+"fyrirspurninni.</qt>"
 
-#: kwalletd.cpp:683
+#: kwalletd.cpp:757
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -402,22 +389,22 @@ msgid ""
 "application's request.</qt>"
 msgstr ""
 "<qt>Forritið '<b>%1</b>' hefur beðið um að nýtt veski með heitið '<b>%2</b>' "
-"verði búið til.  Vinsamlegast veldu þér lykilorð fyrir þetta veski, eða ýttu "
-"á 'Hætta við' til að neita fyrirspurninni.</qt>"
+"verði búið til. Vu þér lykilorð fyrir þetta veski, eða ýttu á 'Hætta við' "
+"til að neita fyrirspurninni.</qt>"
 
-#: kwalletd.cpp:795
+#: kwalletd.cpp:869
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE hefur beðið um aðgang til að opna veskið '<b>%1</b>'.</qt>"
 
-#: kwalletd.cpp:797
+#: kwalletd.cpp:871
 #, kde-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
 "%2</b>'.</qt>"
 msgstr "<qt>Forritið '<b>%1</b>' vill opna veskið '<b>%2</b>'.</qt>"
 
-#: kwalletd.cpp:905
+#: kwalletd.cpp:979
 #, kde-format
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
@@ -426,7 +413,7 @@ msgstr ""
 "Gat ekki opnað veskið.  Ekki er hægt að breyta lykilorðinu nema veskið sé "
 "opið."
 
-#: kwalletd.cpp:921
+#: kwalletd.cpp:995
 #, kde-format
 msgid ""
 "<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use "
@@ -434,23 +421,22 @@ msgid ""
 "associated to that key.</qt>"
 msgstr ""
 
-#: kwalletd.cpp:928
+#: kwalletd.cpp:1002
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
-msgstr ""
-"<qt>Vinsamlegast veldu þér nýtt lykilorð fyrir veskið '<b>%1</b>'.</qt>"
+msgstr "<qt>Veldu þér nýtt lykilorð fyrir veskið '<b>%1</b>'.</qt>"
 
-#: kwalletd.cpp:940
+#: kwalletd.cpp:1014
 #, kde-format
 msgid "Error re-encrypting the wallet. Password was not changed."
-msgstr "Villa við að endurdulkóða veskið.  Lykilorðinu var ekki breytt."
+msgstr "Villa við að endurdulrita veskið. Lykilorðinu var ekki breytt."
 
-#: kwalletd.cpp:945
+#: kwalletd.cpp:1019
 #, kde-format
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "Tókst ekki að opna veskið aftur.  Gögn gætu tapast."
 
-#: kwalletd.cpp:1525
+#: kwalletd.cpp:1608
 #, kde-format
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
@@ -462,7 +448,7 @@ msgstr ""
 #: kwalletwizard.cpp:40
 #, kde-format
 msgid "KWallet"
-msgstr "KWallet"
+msgstr "KWallet-veski"
 
 #: kwalletwizard.cpp:272
 #, kde-format
@@ -481,15 +467,7 @@ msgstr "Lykilorðin stemma ekki."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
 #: kwalletwizardpageexplanation.ui:17
-#, fuzzy, kde-format
-#| msgid ""
-#| "The KDE Wallet system stores your data in a <i>wallet</i> file on your "
-#| "local hard disk.  The data is only written in encrypted form, presently "
-#| "using the blowfish algorithm with your password as the key.  When a "
-#| "wallet is opened, the wallet manager application will launch and display "
-#| "an icon in the system tray.  You can use this application to manage your "
-#| "wallets.  It even permits you to drag wallets and wallet contents, "
-#| "allowing you to easily copy a wallet to a remote system."
+#, kde-format
 msgid ""
 "<html><head/><body><p>The KDE Wallet system stores your data in a <span "
 "style=\" font-style:italic;\">wallet</span> file on your local hard disk. "
@@ -500,13 +478,14 @@ msgid ""
 "your wallets. It even permits you to drag wallets and wallet contents, "
 "allowing you to easily copy a wallet to a remote system.</p></body></html>"
 msgstr ""
-"Veskjakerfi KDE geymir gögnin þín í <b>veskis</b> skrá á harða disknum "
-"þínum.  Gögnin eru aðeins skrifuð í dulkóðuðu formi, sem í dag styðst við "
-"blowfish algrím með lykilorðið þitt sem dulkóðunarlykil.  Þegar veski er "
-"opnað birtir veskisstjórinn tákn af veski í forritakvínni.  Þú getur notað "
-"þetta forrit fyrir alla umsýslu veskjanna þinna.  Það leyfir þér meira að "
-"segja að draga veski til og einfaldar þannig að afrita veski yfir á annað "
-"kerfi."
+"<html><head/><body><p>Veskjakerfi KDE geymir gögnin þín í <span style=\" "
+"font-style:italic;\">veskis</span>-skrá á harða disknum þínum.  Gögnin eru "
+"einungis skrifuð á dulrituðu formi, sem í dag styðst við blowfish-algrím með "
+"lykilorðið þitt sem dulkóðunarlykil.  Þegar veski er opnað birtir "
+"veskisstjórinn tákn af veski í kerfisbakkanum.  Þú getur notað þetta forrit "
+"fyrir umsýslu allra veskjanna þinna.  Það leyfir þér meira að segja að draga "
+"veski til og einfaldar þannig að afrita veski yfir á annað kerfi.</p></"
+"body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kwalletwizardpagegpgkey.ui:24
@@ -525,7 +504,7 @@ msgstr ""
 #: kwalletwizardpagegpgkey.ui:42
 #, kde-format
 msgid "Select encryption GPG key:"
-msgstr ""
+msgstr "Veldu GPG-dulritunarlykil:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kwalletwizardpagegpgkey.ui:81
@@ -548,10 +527,11 @@ msgid ""
 "preventing others from viewing the information.  This wizard will tell you "
 "about KWallet and help you configure it for the first time."
 msgstr ""
-"Velkomin(n) í KWallet, veskjakerfi KDE.  KWallet leyfir þér að geyma "
+"Velkomin(n) í KWallet, veskjakerfi KDE.  KWallet gerir þér kleift að geyma "
 "lykilorð og aðrar persónuupplýsingar á harða disknum þín í dulkóðaðri skrá, "
-"sem kemur í veg fyrir að aðrir geti skoðað þínar upplýsingar.  Þessi álfur "
-"segir þér frá KWallet og mun hjálpa þér að stilla það í fyrsta skipti."
+"sem kemur í veg fyrir að aðrir geti skoðað upplýsingarnar þínar.  Þessi "
+"leiðarvísir segir þér frá KWallet og mun hjálpa þér að stilla það í fyrsta "
+"skipti."
 
 #. i18n: ectx: property (text), widget (QRadioButton, _basic)
 #: kwalletwizardpageintro.ui:69
@@ -613,7 +593,7 @@ msgstr ""
 #: kwalletwizardpagepassword.ui:29 kwalletwizardpagepasswordgpg.ui:30
 #, kde-format
 msgid "Yes, I wish to use the KDE wallet to store my personal information."
-msgstr "Já ég vil nota KDE veskið til að geyma persónuupplýsingar."
+msgstr "Já ég vil nota KDE-veskið til að geyma persónuupplýsingar."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #: kwalletwizardpagepassword.ui:88 kwalletwizardpagepasswordgpg.ui:106
@@ -629,14 +609,7 @@ msgstr "Staðfestu lykilorðið:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: kwalletwizardpagepasswordgpg.ui:17
-#, fuzzy, kde-format
-#| msgid ""
-#| "Various applications may attempt to use the KDE wallet to store passwords "
-#| "or other information such as web form data and cookies.  If you would "
-#| "like these applications to use the wallet, you must enable it now and "
-#| "choose a password.  The password you choose <i>cannot</i> be recovered if "
-#| "it is lost, and will allow anyone who knows it to obtain all the "
-#| "information contained in the wallet."
+#, kde-format
 msgid ""
 "<html><head/><body><p>Various applications may attempt to use the KDE wallet "
 "to store passwords or other information such as web form data and cookies. "
@@ -648,60 +621,93 @@ msgid ""
 "is lost, and will allow anyone who knows it to obtain all the information "
 "contained in the wallet.</p></body></html>"
 msgstr ""
-"Ýmis forrit geta reynt að nýta sér KDE veskið til að geyma lykilorð eða "
-"aðrar upplýsingar, svo sem gögn fyrir vefform og smákökur.  Ef þú vilt að "
-"þessi forrit noti veskið þarftu virkja það núna og velja þér lykilorð.  Það "
-"er <i>ekki</i> hægt að endurheimta lykilorðið sem þú velur ef það tapast og "
-"hver sem veit það getur komist yfir allar upplýsingar í veskinu."
+"<html><head/><body><p>Ýmis forrit geta reynt að nýta sér KDE veskið til að "
+"geyma lykilorð eða aðrar upplýsingar, svo sem gögn fyrir vefform og "
+"vefkökur.  Ef þú vilt að þessi forrit noti veskið þarftu virkja það núna og "
+"velja aðferðina sem á að nota við dulritun þess.</p><p>GPG-aðferðin er "
+"öruggari, en þá þarft þú að hafa sett upp að minnsta kosti einn "
+"dulritunarlykil á kerfinu þínu.</p><p>Ef þú notar klassíska tegund veskis, "
+"þá skaltu athuga að <span style=\" font-style:italic;\">ekki</span> er hægt "
+"að endurheimta lykilorðið sem þú velur ef það tapast og hver sá sem veit það "
+"getur komist yfir allar upplýsingar í veskinu."
 
 #. i18n: ectx: property (title), widget (QGroupBox, _groupBox)
 #: kwalletwizardpagepasswordgpg.ui:46
 #, kde-format
 msgid "What kind of encryption do you wish?"
-msgstr ""
+msgstr "Hverskonar dulritun viltu?"
 
-#: main.cpp:172
+#: main.cpp:173
 #, kde-format
 msgid "(C) 2002-2013, The KDE Developers"
-msgstr ""
-
-#: main.cpp:173
-#, kde-format
-msgid "Valentin Rusu"
-msgstr ""
-
-#: main.cpp:173
-#, kde-format
-msgid "Maintainer, GPG backend support"
-msgstr ""
+msgstr "(C) -2002-2013, KDE-þróunarteymið"
 
 #: main.cpp:174
+#, kde-format
+msgid "Valentin Rusu"
+msgstr "Valentin Rusu"
+
+#: main.cpp:174
+#, kde-format
+msgid "Maintainer, GPG backend support"
+msgstr "Umsjónarmaður, stuðningur við GPG-bakenda"
+
+#: main.cpp:175
 #, kde-format
 msgid "Michael Leupold"
 msgstr "Michael Leupold"
 
-#: main.cpp:174
-#, fuzzy, kde-format
-#| msgid "Former maintainer"
+#: main.cpp:175
+#, kde-format
 msgid "Former Maintainer"
 msgstr "Fyrrverandi umsjónarmaður"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "George Staikos"
 msgstr "George Staikos"
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid "Former maintainer"
 msgstr "Fyrrverandi umsjónarmaður"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "Thiago Maceira"
 msgstr "Thiago Maceira"
 
-#: main.cpp:176
+#: main.cpp:177
 #, kde-format
 msgid "D-Bus Interface"
 msgstr "D-Bus viðmót"
+
+#, fuzzy
+#~| msgid "KWallet"
+#~ msgid "kwalletd"
+#~ msgstr "KWallet"
+
+#, fuzzy
+#~| msgid "KDE Wallet Service"
+#~ msgid "KDE Wallet Migration Agent"
+#~ msgstr "KDE veskisþjónusta"
+
+#~ msgctxt "Text of a button to ignore the open-wallet notification"
+#~ msgid "Ignore"
+#~ msgstr "Hunsa"
+
+#~ msgid "&Open"
+#~ msgstr "&Opna"
+
+#~ msgid "C&reate"
+#~ msgstr "&Búa til"
+
+#, fuzzy
+#~| msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+#~ msgid ""
+#~ "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira, Valentin "
+#~ "Rusu"
+#~ msgstr "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+
+#~ msgid "Maintainer"
+#~ msgstr "Viðhaldsforritari"

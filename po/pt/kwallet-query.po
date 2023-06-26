@@ -128,3 +128,12 @@ msgstr "Não foi possível ler o valor do item %1 da carteira %2"
 #, kde-format
 msgid "Failed to write entry %1 value to %2 wallet"
 msgstr "Não foi possível gravar o valor do item %1 da carteira %2"
+
+#~ msgid "wallet"
+#~ msgstr "carteira"
+
+#~ msgid "kwallet-query"
+#~ msgstr "kwallet-query"
+
+#~ msgid "The folder %1 doeos not exist!"
+#~ msgstr "A pasta %1 não existe!"
