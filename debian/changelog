@@ -1,3 +1,9 @@
+kwallet-kf5 (5.103.0-1deepin1) unstable; urgency=medium
+
+  * Disable building of kwalletd and kwallet-query to prepare coinstability with KF6 kwallet.
+
+ -- lichenggang <lichenggang@deepin.org>  Sat, 23 Nov 2024 14:02:44 +0800
+
 kwallet-kf5 (5.103.0-1deepin0) unstable; urgency=medium
 
   * No source change upload against GCC 12.

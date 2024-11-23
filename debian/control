@@ -36,20 +36,12 @@ Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kwallet.git
 Rules-Requires-Root: no
 
 Package: libkf5wallet-bin
-Architecture: any
-Depends: libkf5wallet-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends},
-Breaks: kio (<< 5.54),
-        libkf5khtml5 (<< 5.54),
-        libkf5wallet5 (<< 4.100.0),
-        libkf5webkit5 (<< 5.54),
-Replaces: libkf5wallet5 (<< 4.100.0),
-Description: Secure and unified container for user passwords.
- Runtime for interface to KWallet, the safe desktop-wide storage
- for passwords on KDE workspaces.
- .
- Contains the runtime files for kwallet-framework
+Section: oldlibs
+Architecture: all
+Depends: kwallet6, ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
 
 Package: libkf5wallet-data
 Architecture: all
@@ -70,7 +62,6 @@ Multi-Arch: same
 Depends: libkf5config-dev (>= 5.103.0~),
          libkf5wallet5 (= ${binary:Version}),
          libkf5windowsystem-dev (>= 5.103.0~),
-         libkwalletbackend5-5 (= ${binary:Version}),
          qtbase5-dev (>= 5.15.2~),
          ${misc:Depends},
 Recommends: libkf5wallet-doc (= ${source:Version}),
@@ -95,7 +86,6 @@ Section: doc
 Package: libkf5wallet5
 Architecture: any
 Depends: libkf5wallet-data (= ${source:Version}),
-         libkwalletbackend5-5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
 Multi-Arch: same
@@ -103,11 +93,3 @@ Description: Secure and unified container for user passwords.
  Interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
 Breaks: kio (<< 5.54), libkf5khtml5 (<< 5.54), libkf5webkit5 (<< 5.54),
-
-Package: libkwalletbackend5-5
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
-Multi-Arch: same
-Description: Secure and unified container for user passwords.
- Backend to KWallet, the safe desktop-wide storage
- for passwords on KDE workspaces.
